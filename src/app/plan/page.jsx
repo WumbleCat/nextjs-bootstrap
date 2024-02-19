@@ -21,7 +21,7 @@ export default function PlanAccordion() {
                                 <strong>Provide assistance on academics:</strong> Develop an online learning platform, create a roadmap project, hold voluntary math and coding sessions, and assist in forming study groups.
                             </li>
                             <li>
-                                <strong>Provide suggestions on school policies:</strong> Send inquiry letters to request the school to clarify its policies, focusing on various school policies that may affect students' learning environment.
+                                <strong>Provide suggestions on school policies:</strong> Send inquiry letters to request the school to clarify its policies, focusing on various school policies that may affect students learning environment.
                             </li>
                             <li>
                                 <strong>Manage learning differences and allow capable students to develop:</strong> Provide updates on available scholarships and encourage students to host activities.
