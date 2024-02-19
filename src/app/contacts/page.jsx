@@ -17,6 +17,7 @@ export default function Plan() {
                           <div className="card-body text-center p-2">
                               <Image 
                                   src="/images/UoB_building.jpg"
+                                  alt="pics"
                                   height={150}
                                   width={200}
                                   className="mx-auto" // Center the image horizontally

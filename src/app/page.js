@@ -18,6 +18,7 @@ export default function Home() {
       <Image
         src={"/images/UoB_building.jpg"}
         fill
+        alt="fry"
         quality={100}
         sizes="(min-width: 808px) 50vw, 100vw"
         style={{
