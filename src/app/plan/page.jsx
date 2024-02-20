@@ -37,7 +37,7 @@ export default function PlanAccordion() {
     <tr>
       <th scope="row">3</th>
       <td>End of Term In-depth Survey</td>
-      <td>Conducting an in-depth end of TB questionnaire to collect students' opinions and feedback on school policy and course arrangements. This will also gather crucial data for proposing policies, such as assessing students' academic progress, their plans for future career paths, and their engagement in the data science community.</td>
+      <td>Conducting an in-depth end of TB questionnaire to collect student opinions and feedback on school policy and course arrangements. This will also gather crucial data for proposing policies, such as assessing students academic progress, their plans for future career paths, and their engagement in the data science community.</td>
     </tr>
     <tr>
       <th scope="row">4</th>
@@ -72,7 +72,7 @@ export default function PlanAccordion() {
     <tr>
       <th scope="row">2</th>
       <td>Roadmap Project</td>
-      <td>Create an online self-study roadmap that includes the necessary skills for becoming a data scientist, along with its specializations. This roadmap will feature custom resources tailored specifically for the entire program and will also include additional generic resources that cater to the student's desired specialization.</td>
+      <td>Create an online self-study roadmap that includes the necessary skills for becoming a data scientist, along with its specializations. This roadmap will feature custom resources tailored specifically for the entire program and will also include additional generic resources that cater to the desired specialization of the student .</td>
     </tr>
     <tr>
       <th scope="row">3</th>
@@ -215,7 +215,7 @@ export default function PlanAccordion() {
                     <tr>
                         <th scope="row">2</th>
                         <td>Concerns on Industrial Placement Year and Integrated Masters</td>
-                        <td>To request that the school authority provides the most recent updates on the integrated master's program and the industrial placement year. To evaluate the current placement year arrangements and provide suggestions for modifications.</td>
+                        <td>To request that the school authority provides the most recent updates on the integrated masters program and the industrial placement year. To evaluate the current placement year arrangements and provide suggestions for modifications.</td>
                     </tr>
                     <tr>
                         <th scope="row">3</th>
@@ -289,12 +289,12 @@ export default function PlanAccordion() {
                     <tr>
                         <th scope="row">1</th>
                         <td>Collaboration with the School and Promotion of the Programme</td>
-                        <td>To explore opportunities to collaborate with the school to promote our program on various occasions, such as Open Days, Offer Holders' Events, and Freshers' Welcome Week.</td>
+                        <td>To explore opportunities to collaborate with the school to promote our program on various occasions, such as Open Days, Offer Holders Events, and Freshers Welcome Week.</td>
                     </tr>
                     <tr>
                         <th scope="row">2</th>
                         <td>Explore the Possibilities on In-depth Research</td>
-                        <td>To explore possibilities for collaboration with the school to conduct in-depth surveys and analyze the results to regularly trace students' views, and to conduct research on special topics during the summer vacation, such as coordination in the Road Map Project.</td>
+                        <td>To explore possibilities for collaboration with the school to conduct in-depth surveys and analyze the results to regularly trace students views, and to conduct research on special topics during the summer vacation, such as coordination in the Road Map Project.</td>
                     </tr>
                 </tbody>
             </table>
