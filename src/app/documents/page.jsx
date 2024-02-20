@@ -1,50 +1,110 @@
-import React from 'react'
+import React from 'react';
 
-export default function Documents() {
+export default function DocumentAccordion() {
   return (
-<main>
-      <div className="text-center mt-4 col-md-6 mx-auto"> 
-        <h1 className="text-danger">Hello Bootstrap</h1>
-        
+    <main>
+      <div className="text-center mt-4 col-md-9 mx-auto">
+        <h1 className="text-danger">Previous Documents</h1>
+
         <div className="accordion" id="accordionExample">
-          <div className="accordion-item">
-            <h2 className="accordion-header" id="headingOne">
-              <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Accordion Item #1
-              </button>
-            </h2>
-            <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+    <div className="accordion-item">
+        <h2 className="accordion-header" id="headingOne">
+            <button className="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                {/* <i className="bi bi-circle pe-3"></i> */}
+                1. Regularly collect opinions to assist in conducting evaluation surveys, and reflect them to school authority.
+            </button>
+        </h2>
+        <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
               <div className="accordion-body">
-                <strong>This is the first accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. Also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <table className="table">
+                  <thead>
+                    <tr>
+                      <th>Document</th>
+                      <th>Link</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Year 1 SSLC Memo</td>
+                      <td><a href="https://docs.google.com/document/d/1ZduRWJwAYHLW7zVSLqXrDly9dfxOhhjfCgmAnzd0zcA/edit" target="_blank" rel="noopener noreferrer">View Document</a></td>
+                    </tr>
+                    <tr>
+                      <td>Follow Up Memo</td>
+                      <td><a href="https://docs.google.com/document/d/1lNCMN62eyhh3VVTFQQCFwfJvStFujzAH1fq6w8Wh9TQ/edit" target="_blank" rel="noopener noreferrer">View Document</a></td>
+                    </tr>
+                    <tr>
+                      <td>School Response</td>
+                      <td><a href="https://docs.google.com/document/d/1ip-qiJ377P3aKcPQtYlNksCqnozr_PwF/edit" target="_blank" rel="noopener noreferrer">View Document</a></td>
+                    </tr>
+                    {/* Add more rows as needed */}
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
+
+          {/* Full SSLC Memo */}
           <div className="accordion-item">
-            <h2 className="accordion-header" id="headingTwo">
-              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Accordion Item #2
+            <h2 className="accordion-header" id="headingFullSSLC">
+              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFullSSLC" aria-expanded="false" aria-controls="collapseFullSSLC">
+                Full SSLC Memo
               </button>
             </h2>
-            <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div id="collapseFullSSLC" className="accordion-collapse collapse" aria-labelledby="headingFullSSLC" data-bs-parent="#documentAccordion">
               <div className="accordion-body">
-                <strong>This is the second accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. Also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <table className="table">
+                  <thead>
+                    <tr>
+                      <th>Document</th>
+                      <th>Link</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>First FULL SSLC Follow Up Memo</td>
+                      <td><a href="https://docs.google.com/document/d/1_4fxJ_15UajsFErvupQOgXd0r-Xb5qwOwMXTy6oWBkU" target="_blank" rel="noopener noreferrer">View Document</a></td>
+                    </tr>
+                    <tr>
+                      <td>Second FULL SSLC Memo</td>
+                      <td><a href="https://docs.google.com/document/d/1_wUdaavUXip2Nj4hsHuDmmgavRuptyr0xwPMQVgAodo/edit" target="_blank" rel="noopener noreferrer">View Document</a></td>
+                    </tr>
+                    {/* Add more rows as needed */}
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
+
+          {/* Meeting With Data Science Director */}
           <div className="accordion-item">
-            <h2 className="accordion-header" id="headingThree">
-              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Accordion Item #3
+            <h2 className="accordion-header" id="headingDSDirector">
+              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDSDirector" aria-expanded="false" aria-controls="collapseDSDirector">
+                Meeting With Data Science Director
               </button>
             </h2>
-            <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div id="collapseDSDirector" className="accordion-collapse collapse" aria-labelledby="headingDSDirector" data-bs-parent="#documentAccordion">
               <div className="accordion-body">
-                <strong>This is the third accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. Also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <strong>Awaiting updates.</strong>
               </div>
             </div>
           </div>
+
+          {/* Results of Surveys */}
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingSurveys">
+              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSurveys" aria-expanded="false" aria-controls="collapseSurveys">
+                Results of Surveys
+              </button>
+            </h2>
+            <div id="collapseSurveys" className="accordion-collapse collapse" aria-labelledby="headingSurveys" data-bs-parent="#documentAccordion">
+              <div className="accordion-body">
+                <strong>Awaiting updates.</strong>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </main>
-  )
+  );
 }

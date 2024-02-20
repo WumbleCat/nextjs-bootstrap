@@ -1,32 +1,45 @@
 import React from 'react';
 
 export default function Assignments() {
-    // Define an array of assignment objects
+    // Array of assignment objects with 'type' property
     const assignments = [
-        { index: 1, name: 'Mark', subject: 'Otto', dueDate: '@mdo' },
-        { index: 2, name: 'Jacob', subject: 'Thornton', dueDate: '@fat' },
-        { index: 3, name: 'Larry the Bird', subject: '', dueDate: '@twitter' }
+        { name: 'Online Quiz', subject: 'Applied Analysis B', dueDate: 'TBD', type: 'Formative' },
+        { name: 'Problem Sheet 3', subject: 'Matrices and Linear Models', dueDate: 'TBD', type: 'Summative' },
+        { name: 'Problem Sheet 4', subject: 'Statistics', dueDate: 'TBD', type: 'Formative' }
     ];
+
+    // Sort assignments so that 'Summative' types come first
+    const sortedAssignments = assignments.sort((a, b) => {
+        if (a.type === 'Summative' && b.type !== 'Summative') {
+            return -1; // a comes first
+        }
+        if (a.type !== 'Summative' && b.type === 'Summative') {
+            return 1; // b comes first
+        }
+        return 0; // no change in order
+    });
 
     return (
         <div className='container m-2'>
-            <h1 className='p-2'>Assignments board:</h1>
+            <h1 className='p-2'>Assignments Board:</h1>
             <table className="table">
                 <thead>
                     <tr>
-                        <th scope="col">Index</th>
+                        <th scope="col">#</th>
                         <th scope="col">Name</th>
                         <th scope="col">Subject</th>
+                        <th scope="col">Type</th>
                         <th scope="col">Due Date</th>
                     </tr>
                 </thead>
                 <tbody>
-                    {/* Map each assignment object to a table row */}
-                    {assignments.map((assignment, index) => (
+                    {/* Map each sorted assignment object to a table row, using the map index for display */}
+                    {sortedAssignments.map((assignment, index) => (
                         <tr key={index}>
-                            <th scope="row">{assignment.index}</th>
+                            <th scope="row">{index + 1}</th>
                             <td>{assignment.name}</td>
                             <td>{assignment.subject}</td>
+                            <td>{assignment.type}</td>
                             <td>{assignment.dueDate}</td>
                         </tr>
                     ))}

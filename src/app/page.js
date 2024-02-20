@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import 'bootstrap-icons/font/bootstrap-icons.css'; 
 import Image from 'next/image';
 import { FaFile, FaList, FaLink, FaAddressBook } from 'react-icons/fa';
 
@@ -26,7 +27,7 @@ export default function Home() {
         }}
       />
       {/* Text section */}
-      <div className="position-absolute top-50 start-50 translate-middle rounded p-3" style={{ backgroundColor: '#d21010' }}>
+      <div className="position-absolute top-50 start-50 translate-middle rounded p-3 border border-2" style={{ backgroundColor: '#d21010' }}>
         <h1 className="text-center mb-1 fs-1 fw-bold text-white">University of Bristol</h1>
         <h1 className="text-center mb-3 fs-1 fw-bold text-white">Data Science</h1>
         <p className='text-white text-center mb-0'>Unofficial website made by students from UoB Data Science course year 1 as an information hub for other year 1 students.</p>
