@@ -6,15 +6,15 @@ export default function DocumentAccordion() {
       <div className="text-center mt-4 col-md-9 mx-auto">
         <h1 className="text-danger">Previous Documents</h1>
 
-        <div className="accordion" id="accordionExample">
+        <div className="accordion" id="documentAccordion">
+    {/* Documents on Meeting with School */}
     <div className="accordion-item">
-        <h2 className="accordion-header" id="headingOne">
-            <button className="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                {/* <i className="bi bi-circle pe-3"></i> */}
-                1. Regularly collect opinions to assist in conducting evaluation surveys, and reflect them to school authority.
+        <h2 className="accordion-header" id="headingMeetings">
+            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMeetings" aria-expanded="false" aria-controls="collapseMeetings">
+                Documents on Meeting with School
             </button>
         </h2>
-        <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div id="collapseMeetings" className="accordion-collapse collapse" aria-labelledby="headingMeetings" data-bs-parent="#documentAccordion">
               <div className="accordion-body">
                 <table className="table">
                   <thead>
@@ -105,6 +105,89 @@ export default function DocumentAccordion() {
 
         </div>
       </div>
+
+      <div className="mt-4 col-md-9 mx-auto">
+                <h1 className="text-danger text-center">Timeline of Activities</h1>
+
+                <div className="accordion" id="activityAccordion">
+                    {/* October - November 2023 */}
+                    <div className="accordion-item">
+                        <h2 className="accordion-header" id="headingOctNov">
+                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOctNov" aria-expanded="true" aria-controls="collapseOctNov">
+                                October - November 2023
+                            </button>
+                        </h2>
+                        <div id="collapseOctNov" className="accordion-collapse collapse" aria-labelledby="headingOctNov" data-bs-parent="#activityAccordion">
+                            <div className="accordion-body">
+                                <ul>
+                                    <li>Getting Elected on Course Rep Elections</li>
+                                    <li>Building up on Online Learning Drive, Discord Group and Message Box</li>
+                                    <li>Attending First Year 1 SSLC Meeting</li>
+                                    <li>Attending First FULL SSLC Meeting</li>
+                                    <li>Requesting modifications on the course arrangement of the “Applied Analysis A” with providing extra practice paper</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* December 2023 */}
+                    <div className="accordion-item">
+                        <h2 className="accordion-header" id="headingDec">
+                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDec" aria-expanded="false" aria-controls="collapseDec">
+                                December 2023
+                            </button>
+                        </h2>
+                        <div id="collapseDec" className="accordion-collapse collapse" aria-labelledby="headingDec" data-bs-parent="#activityAccordion">
+                            <div className="accordion-body">
+                                <ul>
+                                    <li>Attending Second Year 1 SSLC Meeting</li>
+                                    <li>Conducting In-depth Year 1 Survey</li>
+                                    <li>Holding Maths/ Coding Surgery</li>
+                                    <li>Initialize meeting with the Data Science Director</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* January 2024 */}
+                    <div className="accordion-item">
+                        <h2 className="accordion-header" id="headingJan">
+                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseJan" aria-expanded="false" aria-controls="collapseJan">
+                                January 2024
+                            </button>
+                        </h2>
+                        <div id="collapseJan" className="accordion-collapse collapse" aria-labelledby="headingJan" data-bs-parent="#activityAccordion">
+                            <div className="accordion-body">
+                                <ul>
+                                    <li>Attending Second FULL SSLC Meeting</li>
+                                    <li>Raise the concerns about how the change of school plan in 24/25 affects on students performance</li>
+                                    <li>Conducting TB1 Post-exam Survey</li>
+                                    <li>Publishing Post-exam Survey Results during the Second FULL SSLC Meeting</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* February 2024 */}
+                    <div className="accordion-item">
+                        <h2 className="accordion-header" id="headingFeb">
+                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFeb" aria-expanded="false" aria-controls="collapseFeb">
+                                February 2024
+                            </button>
+                        </h2>
+                        <div id="collapseFeb" className="accordion-collapse collapse" aria-labelledby="headingFeb" data-bs-parent="#activityAccordion">
+                            <div className="accordion-body">
+                                <ul>
+                                    <li>Attending Third FULL SSLC Meeting</li>
+                                    <li>Attending the meeting with the Data Science Director, which discuss curriculum design, career development and the data science community</li>
+                                    <li>Publishing the result of the end of TB1 In-depth survey</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
     </main>
   );
 }
