@@ -3,8 +3,8 @@ import Image from 'next/image';
 
 export default function Plan() {
     const reps = [
-        { "names": "Joshua Man Yu Ng", "email": "jq22530@bristol.ac.uk", "LinkedIn": "https://www.linkedin.com/in/kometh-tauch-38a58626b/"  },
-        { "names": "Kometh Tauch (Maine)", "email": "cy23929@bristol.ac.uk", "LinkedIn": "https://www.linkedin.com/in/kometh-tauch-38a58626b/" }
+        { "names": "Joshua Man Yu Ng", "email": "jq22530@bristol.ac.uk", "LinkedIn": "https://www.linkedin.com/in/kometh-tauch-38a58626b/", "image": "/images/rep1.jpg"  },
+        { "names": "Kometh Tauch (Maine)", "email": "cy23929@bristol.ac.uk", "LinkedIn": "https://www.linkedin.com/in/kometh-tauch-38a58626b/", "image": "/images/rep2.jpg" }
     ];
 
     return (
@@ -16,7 +16,7 @@ export default function Plan() {
                       <div className="card p-0">
                           <div className="card-body text-center p-2">
                               <Image 
-                                  src="/images/UoB_building.jpg"
+                                  src={rep.image}
                                   alt="pics"
                                   height={150}
                                   width={200}

@@ -13,11 +13,6 @@ export default function Links() {
             "Link": "https://shorturl.at/dgAG1"
         },
         {
-            "Title": "Google Drive",
-            "Desc": "Access course materials and self-learning materials.",
-            "Link": "https://drive.google.com/drive/u/0/folders/10Xoi_NbUD9L_H4fllO3inNZW8pdOkBkC"
-        },
-        {
             "Title": "Anonymous Message Box",
             "Desc": "Submit anonymous messages.",
             "Link": "https://forms.gle/yBACcnHkHndws1Fo7"
@@ -26,12 +21,7 @@ export default function Links() {
           "Title": "Discord Server",
           "Desc": "Join our discord server",
           "Link": "https://forms.gle/yBACcnHkHndws1Fo7"
-        },
-        {
-          "Title": "WhatsApp Group",
-          "Desc": "Join our WhatsApp Group",
-          "Link": "https://forms.gle/yBACcnHkHndws1Fo7"
-        },
+        }
     ];
 
     // Sort links array alphabetically by Title
