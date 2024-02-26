@@ -249,7 +249,7 @@ export default function DocumentAccordion() {
       </div>
 
       {/* Timeline of Activities */}
-      <div className="mt-4 col-md-9 mx-auto">
+      <div className="m-5 col-md-9 mx-auto">
         <h1 className="text-danger text-center">Timeline of Activities</h1>
 
         <div className="accordion" id="activityAccordion">
