@@ -1,7 +1,12 @@
 import Link from 'next/link';
+import Head from 'next/head';
 import 'bootstrap-icons/font/bootstrap-icons.css'; 
 import Image from 'next/image';
 import { FaFile, FaList, FaLink, FaAddressBook } from 'react-icons/fa';
+
+export const metadata = {
+  title: 'Data Science Student Reps Page'
+}
 
 export default function Home() {
   const pills = [

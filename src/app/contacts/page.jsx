@@ -3,8 +3,8 @@ import Image from 'next/image';
 
 export default function Plan() {
     const reps = [
-        { "names": "Joshua Man Yu Ng", "email": "jq22530@bristol.ac.uk", "LinkedIn": "https://www.linkedin.com/in/kometh-tauch-38a58626b/", "image": "/images/rep1.jpg"  },
-        { "names": "Kometh Tauch (Maine)", "email": "cy23929@bristol.ac.uk", "LinkedIn": "https://www.linkedin.com/in/kometh-tauch-38a58626b/", "image": "/images/rep2.jpg" }
+        { "names": "Joshua Man Yu Ng", "email": "jq22530@bristol.ac.uk", "LinkedIn": "https://www.linkedin.com/in/kometh-tauch-38a58626b/", "image": "/images/rep1_cropped.jpg"  },
+        { "names": "Kometh Tauch (Maine)", "email": "cy23929@bristol.ac.uk", "LinkedIn": "https://www.linkedin.com/in/kometh-tauch-38a58626b/", "image": "/images/rep2_cropped.jpg" }
     ];
 
     return (
@@ -18,8 +18,8 @@ export default function Plan() {
                               <Image 
                                   src={rep.image}
                                   alt="pics"
-                                  height={150}
-                                  width={200}
+                                  height={190}
+                                  width={180}
                                   className="mx-auto" // Center the image horizontally
                               />
                               <h2 className="card-title text-lg font-bold my-2">Student Representative</h2>

@@ -3,9 +3,8 @@ import React from 'react';
 export default function Assignments() {
     // Array of assignment objects with 'type' property
     const assignments = [
-        { name: 'Online Quiz', subject: 'Applied Analysis B', dueDate: 'TBD', type: 'Formative' },
-        { name: 'Problem Sheet 3', subject: 'Matrices and Linear Models', dueDate: 'TBD', type: 'Summative' },
-        { name: 'Problem Sheet 4', subject: 'Statistics', dueDate: 'TBD', type: 'Formative' }
+        { name: 'Assessment Coursework 5', subject: 'Matrices and Linear Models', dueDate: '27/02/2024', type: 'Summative' },
+        { name: 'Weekly Assessment 16', subject: 'Applied Analysis B', dueDate: '28/02/2024', type: 'Summative' }
     ];
 
     // Sort assignments so that 'Summative' types come first
