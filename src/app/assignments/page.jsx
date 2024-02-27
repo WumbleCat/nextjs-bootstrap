@@ -2,9 +2,7 @@ import React from 'react';
 
 export default function Assignments() {
     // Array of assignment objects with 'type' property
-    const assignments = [
-        { name: 'Assessment Coursework 5', subject: 'Matrices and Linear Models', dueDate: '27/02/2024', type: 'Summative' },
-        { name: 'Weekly Assessment 16', subject: 'Applied Analysis B', dueDate: '28/02/2024', type: 'Summative' }
+    const assignments = [{ name: 'Weekly Assessment 16', subject: 'Intro to Coding', dueDate: '28/02/2024', type: 'Summative' }
     ];
 
     // Sort assignments so that 'Summative' types come first
