@@ -1,5 +1,9 @@
 import React from 'react';
 
+export const metadata = {
+    title: 'Data Science Student Reps Page'
+  }
+
 export default function Assignments() {
     // Array of assignment objects with 'type' property
     const assignments = [{ name: 'Weekly Assessment 16', subject: 'Intro to Coding', dueDate: '28/02/2024', type: 'Summative' }

@@ -1,6 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
 
+export const metadata = {
+    title: 'Data Science Student Reps Page'
+  }
+
 export default function Plan() {
     const reps = [
         { "names": "Joshua Man Yu Ng", "email": "jq22530@bristol.ac.uk", "LinkedIn": "https://www.linkedin.com/in/kometh-tauch-38a58626b/", "image": "/images/rep1_cropped.jpg"  },

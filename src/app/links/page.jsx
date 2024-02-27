@@ -1,5 +1,9 @@
 import React from 'react';
 
+export const metadata = {
+    title: 'Data Science Student Reps Page'
+  }
+
 export default function Links() {
     const links = [
         {
