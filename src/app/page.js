@@ -35,7 +35,7 @@ export default function Home() {
       <div className="position-absolute top-50 start-50 translate-middle rounded p-3 border border-2" style={{ backgroundColor: '#d21010' }}>
         <h1 className="text-center mb-1 fs-1 fw-bold text-white">University of Bristol</h1>
         <h1 className="text-center mb-3 fs-1 fw-bold text-white">Data Science</h1>
-        <p className='text-white text-center mb-0'>Unofficial website made by students from UoB Data Science course year 1 as an information hub for other year 1 students.</p>
+        <p className='text-white text-center mb-0'>Unofficial website made by students from UoB Data Science course year 1 as an information hub for other year 1 students. (STILL IN PROGRESS)</p>
       </div>
     </div>
 
