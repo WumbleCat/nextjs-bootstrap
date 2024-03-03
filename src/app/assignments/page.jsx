@@ -6,7 +6,7 @@ export const metadata = {
 
 export default function Assignments() {
     // Array of assignment objects with 'type' property
-    const assignments = [{ name: 'Weekly Assessment 16', subject: 'Intro to Coding', dueDate: '28/02/2024', type: 'Summative' },
+    const assignments = [
     { name: 'Computer Practical 3', subject: 'Algorithms in C(++)', dueDate: '05/03/2024', type: 'Summative' }
     ];
 
