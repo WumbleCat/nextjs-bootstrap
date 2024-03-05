@@ -138,7 +138,7 @@ export default function DocumentAccordion() {
                                     <tbody>
                                         <tr>
                                             <td>Memo</td>
-                                            <td><a href="https://docs.google.com/document/d/1zti5gpMqWpU9f9btnAwKgpMCqKoClp14iRw1OUDAY8Q/edit?usp=sharing" target="_blank" rel="noopener noreferrer">View Document</a></td>
+                                            <td><a href="https://docs.google.com/document/d/1_wUdaavUXip2Nj4hsHuDmmgavRuptyr0xwPMQVgAodo/edit" target="_blank" rel="noopener noreferrer">View Document</a></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -164,7 +164,8 @@ export default function DocumentAccordion() {
                                     <tbody>
                                         <tr>
                                             <td>Memo</td>
-                                            <td><a href="https://docs.google.com/document/d/1_wUdaavUXip2Nj4hsHuDmmgavRuptyr0xwPMQVgAodo/edit" target="_blank" rel="noopener noreferrer">View Document</a></td>
+                                            <td><a href="https://docs.google.com/document/d/1zti5gpMqWpU9f9btnAwKgpMCqKoClp14iRw1OUDAY8Q/edit?usp=sharing" target="_blank" rel="noopener noreferrer">View Document</a></td>
+                                            
                                         </tr>
                                     </tbody>
                                 </table>
