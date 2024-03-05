@@ -3,7 +3,7 @@ import React from 'react';
 export const metadata = {
     title: 'Data Science Student Reps Page'
   }
-
+  
 export default function Assignments() {
     // Array of assignment objects with 'type' property
     const assignments = [

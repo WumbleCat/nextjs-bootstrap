@@ -138,6 +138,32 @@ export default function DocumentAccordion() {
                                     <tbody>
                                         <tr>
                                             <td>Memo</td>
+                                            <td><a href="https://docs.google.com/document/d/1zti5gpMqWpU9f9btnAwKgpMCqKoClp14iRw1OUDAY8Q/edit?usp=sharing" target="_blank" rel="noopener noreferrer">View Document</a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    {/* <!-- Third FULL SSLC --> */}
+                    <div className="accordion-item">
+                        <h2 className="accordion-header" id="headingThridFullSSLC">
+                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThridFullSSLC" aria-expanded="false" aria-controls="collapseThridFullSSLC">
+                                Third FULL SSLC (28th February 2024)
+                            </button>
+                        </h2>
+                        <div id="collapseThridFullSSLC" className="accordion-collapse collapse" aria-labelledby="headingThridFullSSLC" data-bs-parent="#collapseFullSSLC">
+                            <div className="accordion-body">
+                                <table className="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Document</th>
+                                            <th>Link</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Memo</td>
                                             <td><a href="https://docs.google.com/document/d/1_wUdaavUXip2Nj4hsHuDmmgavRuptyr0xwPMQVgAodo/edit" target="_blank" rel="noopener noreferrer">View Document</a></td>
                                         </tr>
                                     </tbody>
