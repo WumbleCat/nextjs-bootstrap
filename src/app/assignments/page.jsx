@@ -26,6 +26,9 @@ export default function Assignments() {
 
     return (
         <div className='container m-2'>
+             <div className='mx-5 mt-4 mb-2'>
+        <a href="/" className="btn btn-primary">Home</a>
+        </div>
             <h1 className='p-2'>Assignments Board:</h1>
             <table className="table">
                 <thead>

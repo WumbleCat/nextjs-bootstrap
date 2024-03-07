@@ -13,6 +13,9 @@ export default function Plan() {
 
     return (
       <div className="container mt-5">
+        <div>
+        <a href="/" className="btn btn-primary">Home</a>
+        </div>
         <h1 className='text-center pb-3'>Meet Our Reps!</h1>
           <div className="row justify-content-center">
               {reps.map((rep, index) => (

@@ -7,6 +7,9 @@ export const metadata = {
 export default function PlanAccordion() {
     return (
 <main>
+<div className='mx-5 mt-4 mb-2'>
+        <a href="/" className="btn btn-primary">Home</a>
+        </div>
       <div className="text-center mt-4 col-md-9 mx-auto "> 
         <h1 className="text-danger">Vision and Plans</h1>
         
