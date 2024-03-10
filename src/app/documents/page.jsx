@@ -194,7 +194,11 @@ export default function DocumentAccordion() {
                                         <tr>
                                             <td>Memo</td>
                                             <td><a href="https://docs.google.com/document/d/1zti5gpMqWpU9f9btnAwKgpMCqKoClp14iRw1OUDAY8Q/edit?usp=sharing" target="_blank" rel="noopener noreferrer">View Document</a></td>
-                                            
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td>Follow up Memo</td>
+                                            <td><a href="https://docs.google.com/document/d/1G9YTJzyA0bS6gxj29V3J3daZ62AmdJ5s_spQQFP2Ke0/edit?usp=sharing" target="_blank" rel="noopener noreferrer">View Document</a></td>
                                         </tr>
                                     </tbody>
                                 </table>
