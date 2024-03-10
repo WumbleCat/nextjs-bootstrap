@@ -83,6 +83,32 @@ export default function DocumentAccordion() {
                             </div>
                         </div>
                     </div>
+                    {/* <!-- Third Year 1 SSLC --> */}
+                    <div className="accordion-item">
+                        <h2 className="accordion-header" id="headingthirdYear1SSLC">
+                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsethirdYear1SSLC" aria-expanded="false" aria-controls="collapsethirdYear1SSLC">
+                                Third Year 1 SSLC (12th March 2024)
+                            </button>
+                        </h2>
+                        <div id="collapsethirdYear1SSLC" className="accordion-collapse collapse" aria-labelledby="headingthirdYear1SSLC" data-bs-parent="#collapseYear1SSLC">
+                            <div className="accordion-body">
+                                <table className="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Document</th>
+                                            <th>Link</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Third Year 1 SSLC Memo</td>
+                                            <td><a href="https://docs.google.com/document/d/1ZQlYWntSneL_c5kU09DUsZEmHRlcRJ785GgbHFcQiAs/edit?usp=sharing" target="_blank" rel="noopener noreferrer">View Document</a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
