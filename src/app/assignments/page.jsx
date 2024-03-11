@@ -7,7 +7,9 @@ export const metadata = {
 export default function Assignments() {
     // Array of assignment objects with 'type' property
     const assignments = [
-    { name: 'Online Test 6 (Week 19)', subject: 'Intro to Coding', dueDate: '05/03/2024', type: 'Summative' }
+    { name: 'Online Test 6 (Week 19)', subject: 'Intro to Coding', dueDate: '20/03/2024', type: 'Summative' },
+    { name: 'Week 19 Counting Prime numbers', subject: 'Algorithms in C(++) & R', dueDate: '11/03/2024', type: 'Formative' },
+    { name: 'Statistics Problem Sheet', subject: 'Probs and Stats', dueDate: 'Depends on Tutor', type: 'Formative' }
     ];
 
     // Sort assignments so that 'Summative' types come first
