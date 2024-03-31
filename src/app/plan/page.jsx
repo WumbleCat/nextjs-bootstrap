@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from '../../../public/components/navbar';
 
 export const metadata = {
   title: 'Data Science Student Reps Page'
@@ -7,8 +8,9 @@ export const metadata = {
 export default function PlanAccordion() {
     return (
 <main>
+  
+<Navbar />
 <div className='mx-5 mt-4 mb-2'>
-        <a href="/" className="btn btn-primary">Home</a>
         </div>
       <div className="text-center mt-4 col-md-9 mx-auto "> 
         <h1 className="text-danger">Vision and Plans</h1>
@@ -355,9 +357,49 @@ export default function PlanAccordion() {
             <div id="collapseFeb" className="accordion-collapse collapse" aria-labelledby="headingFeb" data-bs-parent="#activityAccordion">
               <div className="accordion-body">
                 <ul>
-                  <li>Attending Third FULL SSLC Meeting</li>
+                  <li>Attending Third FULL SSLC Meeting and we discussed curriculum design course arrangements and overlapping problem in coding course</li>
                   <li>Attending the meeting with the Data Science Director, which discuss curriculum design, career development and the data science community</li>
                   <li>Publishing the result of the end of TB1 In-depth survey</li>
+                  <li>Attending Third FULL SSLC</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          {/* March 2024 */}
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingMar">
+              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMar" aria-expanded="false" aria-controls="collapseMar">
+                March 2024
+              </button>
+            </h2>
+            <div id="collapseMar" className="accordion-collapse collapse" aria-labelledby="headingMar" data-bs-parent="#activityAccordion">
+              <div className="accordion-body">
+                <ul>
+                  <li>Attending Third Year 1 SSLC Meeting</li>
+                  <li>Promotion on Career Events (Explore Data Science Workshop)</li>
+                  <li>Attending the meeting with the Data Science Director and Alyce, which discuss about students’ career development and the data science community</li>
+                  <li>Raise concerns on Open Book exams and modifying exam arrangements on course Applied Analysis B and Statistics</li>
+                  <li>Raise concerns on modifying procedures in Offer Holder Event, Discuss with Data Science Offer-Holders during Offer Holder Event</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          {/* April 2024 */}
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingApr">
+              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseApr" aria-expanded="false" aria-controls="collapseApr">
+                April 2024
+              </button>
+            </h2>
+            <div id="collapseApr" className="accordion-collapse collapse" aria-labelledby="headingApr" data-bs-parent="#activityAccordion">
+              <div className="accordion-body">
+                <ul>
+                  <li>Attending the Fourth and Final Year 1 SSLC Meeting</li>
+                  <li>Promotion on Career Events (Maths at Work - student and industry engagement event)</li>
+                  <li>Conduct End of the Year Survey</li>
+                  <li>Attend BDSS AGM and provide suggestions on BDSS Future Plan</li>
+                  <li>Holding Maths/ Coding Surgery</li>
                 </ul>
               </div>
             </div>

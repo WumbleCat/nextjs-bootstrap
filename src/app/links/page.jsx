@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from '../../../public/components/navbar';
 
 export const metadata = {
     title: 'Data Science Student Reps Page'
@@ -32,9 +33,11 @@ export default function Links() {
     links.sort((a, b) => a.Title.localeCompare(b.Title));
 
     return (
-        <div className="container mx-auto px-4 py-8">
+        <div>
+            
+      <Navbar />
+            <div className="container mx-auto px-4 py-8">
              <div className='mx-5 mt-4 mb-2'>
-        <a href="/" className="btn btn-primary">Home</a>
         </div>
             <h2 className="text-2xl font-bold m-4">Useful Documents</h2>
             <div className="accordion" id="accordionExample">
@@ -54,6 +57,7 @@ export default function Links() {
                     </div>
                 ))}
             </div>
+        </div>
         </div>
     );
 }

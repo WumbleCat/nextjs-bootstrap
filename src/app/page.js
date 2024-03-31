@@ -3,6 +3,7 @@ import Head from 'next/head';
 import 'bootstrap-icons/font/bootstrap-icons.css'; 
 import Image from 'next/image';
 import { FaFile, FaList, FaLink, FaAddressBook } from 'react-icons/fa';
+import Navbar from '../../public/components/navbar';
 
 export const metadata = {
   title: 'Data Science Student Reps Page'
@@ -19,6 +20,8 @@ export default function Home() {
 
   return (
     <div>
+      <Navbar />
+
 <div style={{ position: 'relative', height: '475px', opacity: 0.85 }}>
       {/* Image section */}
       <Image
@@ -32,16 +35,16 @@ export default function Home() {
         }}
       />
       {/* Text section */}
-      <div className="position-absolute top-50 start-50 translate-middle rounded p-3 border border-2" style={{ backgroundColor: '#d21010' }}>
+      <div className="position-absolute top-50 start-50 translate-middle rounded p-3 border border-2" style={{ backgroundColor: '#00008B' }}>
         <h1 className="text-center mb-1 fs-1 fw-bold text-white">University of Bristol</h1>
         <h1 className="text-center mb-3 fs-1 fw-bold text-white">Data Science</h1>
-        <p className='text-white text-center mb-0'>Unofficial website made by students from UoB Data Science course year 1 as an information hub for other year 1 students. (STILL IN PROGRESS)</p>
+        <p className='text-white text-center mb-0'>Welcome to the UoB Data Science Reps website! This is an unofficial website created by students from studying the Data Science course, serving as an information hub for Year 1 DS students</p>
       </div>
     </div>
 
       {/* Pills section */}
       <div style={{ marginTop: '20px' }}>
-        <div className='container d-flex justify-content-center'>
+        <div className='container mb-5 d-flex justify-content-center'>
           <div className='col-md-7'>
             <div className='row justify-content-center'>
               {pills.map((pill, index) => (

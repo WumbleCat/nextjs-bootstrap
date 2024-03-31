@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Navbar from '../../../public/components/navbar';
 
 export const metadata = {
     title: 'Data Science Student Reps Page'
@@ -7,15 +8,15 @@ export const metadata = {
 
 export default function Plan() {
     const reps = [
-        { "names": "Joshua Man Yu Ng", "email": "jq22530@bristol.ac.uk", "LinkedIn": "https://www.linkedin.com/in/kometh-tauch-38a58626b/", "image": "/images/rep1_cropped.jpg"  },
+        { "names": "Joshua Man Yu Ng", "email": "jq22530@bristol.ac.uk", "LinkedIn": "https://www.linkedin.com/in/joshua-ng-876b36279/", "image": "/images/rep1_cropped.jpg"  },
         { "names": "Kometh Tauch (Maine)", "email": "cy23929@bristol.ac.uk", "LinkedIn": "https://www.linkedin.com/in/kometh-tauch-38a58626b/", "image": "/images/rep2_cropped.jpg" }
     ];
 
     return (
-      <div className="container mt-5">
-        <div>
-        <a href="/" className="btn btn-primary">Home</a>
-        </div>
+      <div>
+      <Navbar />
+        <div className="container">
+        <div className='p-5'>
         <h1 className='text-center pb-3'>Meet Our Reps!</h1>
           <div className="row justify-content-center">
               {reps.map((rep, index) => (
@@ -44,6 +45,9 @@ export default function Plan() {
                   </div>
               ))}
           </div>
+          
+        </div>
+      </div>
       </div>
   );
   
