@@ -107,6 +107,10 @@ export default function DocumentAccordion() {
                                             <td>Third Year 1 SSLC Memo</td>
                                             <td><a href="https://docs.google.com/document/d/1ZQlYWntSneL_c5kU09DUsZEmHRlcRJ785GgbHFcQiAs/edit?usp=sharing" target="_blank" rel="noopener noreferrer">View Document</a></td>
                                         </tr>
+                                        <tr>
+                                            <td>Meeting Minutes</td>
+                                            <td><a href="/documents/Meeting Minutes.pdf" target="_blank" rel="noopener noreferrer">Meeting Minutes</a></td>
+                                        </tr>
                                     </tbody>
                                 </table>
                             </div>
