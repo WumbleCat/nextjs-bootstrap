@@ -8,17 +8,15 @@ export const metadata = {
 export default function Assignments() {
     // Array of assignment objects with 'type' property
     const assignments = [
-        { name: 'Linear Models Coursework 6', subject: 'Matrices and Linear Models', dueDate: '2024-4-16 (Tue) ', type: 'Summative' },
-        { name: 'Introduction to Coding Project 4', subject: 'Algorithms in C(++) & R', dueDate: '2024-5-1 (Wed)', type: 'Summative' },
-        { name: 'Linear Models Computational assessment', subject: 'Matrices and Linear Models', dueDate: '2024-5-3 (Fri) ', type: 'Summative' },
-        { name: 'Algorithms and Programming in C(++) Coursework 4', subject: 'Algorithms in C(++) & R', dueDate: '2024-5-3 (Fri) ', type: 'Summative' }
+        { name: 'We will see you back on the 16th!', details: ':)' },
     ];
 
     const exams = [
-        { name: 'Algorithms and Programming in C(++) and R Exam', details: '(Date and Venue TBC)' },
-        { name: 'Applied Analysis B Exam', details: '(Date and Venue TBC)' },
-        { name: 'Linear Models Exam', details: '(Date and Venue TBC)' },
-        { name: 'Statistics Exam', details: '(Date and Venue TBC)' }
+        // { name: 'Algorithms and Programming in C(++) and R Exam', details: '(Date and Venue TBC)' },
+        // { name: 'Applied Analysis B Exam', details: '(Date and Venue TBC)' },
+        // { name: 'Linear Models Exam', details: '(Date and Venue TBC)' },
+        // { name: 'Statistics Exam', details: '(Date and Venue TBC)' },
+        { name: 'Enjoy Your Summer!', details: ':)' },
     ];
 
     // Sort assignments so that 'Summative' types come first
