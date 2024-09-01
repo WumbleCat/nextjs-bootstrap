@@ -38,7 +38,7 @@ export default function PlanAccordion() {
     </tr>
     <tr>
       <td>Attending School Meetings</td>
-      <td>Attending Year 1 SSLC and full SSLC meetings to reflect opinions on course arrangements and school policies.</td>
+      <td>Attending Year 2 SSLC and full SSLC meetings to reflect opinions on course arrangements and school policies.</td>
     </tr>
     <tr>
       <td>End of Term In-depth Survey</td>
@@ -239,12 +239,8 @@ export default function PlanAccordion() {
                         <td>To provide a platform for students to engage in real-time discussions, exchange ideas and information related to coding, math, and data science activities.</td>
                     </tr>
                     <tr>
-                        <td>Expansion on Discord Community</td>
-                        <td>Expanding the Discord server this summer, encouraging all data science students to join. This effort aims to build a strong data science network by creating several branches of the server corresponding to each academic year and using the initial server as the main communication channel for both the data science course and the BDSS.</td>
-                    </tr>
-                    <tr>
                         <td>Collaboration with BDSS/Study Skills Team</td>
-                        <td>We encourage all students to join the BDSS and participate in relevant study skills sessions, such as the coding club, and we will provide weekly updates on Data Science activities mainly through Discord.</td>
+                        <td>We encourage all students to join the BDSS activities as well as and participate in relevant study skills sessions, such as the coding club, and we will provide weekly updates on Data Science activities mainly through community whatsapp group.</td>
                     </tr>
                 </tbody>
             </table>
@@ -386,7 +382,7 @@ export default function PlanAccordion() {
             </div>
           </div>
           {/* April 2024 */}
-          <div className="accordion-item">
+          {/* <div className="accordion-item">
             <h2 className="accordion-header" id="headingApr">
               <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseApr" aria-expanded="false" aria-controls="collapseApr">
                 April 2024
@@ -403,7 +399,7 @@ export default function PlanAccordion() {
                 </ul>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </main>

@@ -15,18 +15,18 @@ export default function Links() {
         {
             "Title": "Assessment Spreadsheet",
             "Desc": "Details on how your math courses will be assessed.",
-            "Link": "https://shorturl.at/dgAG1"
+            "Link": "https://tinyurl.com/ds-assessments"
         },
         {
             "Title": "Anonymous Message Box",
             "Desc": "Submit anonymous messages.",
-            "Link": "https://forms.gle/yBACcnHkHndws1Fo7"
+            "Link": "https://tinyurl.com/calendar-spreadsheet"
         },
-        {
-          "Title": "Discord Server",
-          "Desc": "Join our discord server",
-          "Link": "https://forms.gle/yBACcnHkHndws1Fo7"
-        }
+        // {
+        //   "Title": "Discord Server",
+        //   "Desc": "Join our discord server",
+        //   "Link": "https://forms.gle/yBACcnHkHndws1Fo7"
+        // }
     ];
 
     // Sort links array alphabetically by Title

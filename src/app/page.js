@@ -38,7 +38,7 @@ export default function Home() {
       <div className="position-absolute top-50 start-50 translate-middle rounded p-3 border border-2" style={{ backgroundColor: '#00008B' }}>
         <h1 className="text-center mb-1 fs-1 fw-bold text-white">University of Bristol</h1>
         <h1 className="text-center mb-3 fs-1 fw-bold text-white">Data Science</h1>
-        <p className='text-white text-center mb-0'>Welcome to the UoB Data Science Reps website! This is an unofficial website created by students from studying the Data Science course, serving as an information hub for Year 1 DS students</p>
+        <p className='text-white text-center mb-0'>Welcome to the UoB Data Science Reps website! This is an unofficial website created by students from studying the Data Science course, serving as an information hub for Year 2 DS students in 2023/24 Cohort.</p>
       </div>
     </div>
 
