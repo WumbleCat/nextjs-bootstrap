@@ -19,21 +19,21 @@ export default function Plan() {
             "names": "Christopher Bintang Soo", 
             "email": "jj22293@bristol.ac.uk", 
             "LinkedIn": "https://www.linkedin.com/in/chris-tangsoo/", 
-            "image": "/images/rep2_cropped.jpg",
+            "image": "/images/chris.jpg",
             "title": "Student Representative"
         },
         { 
             "names": "Lam Phong Nguyen Dang", 
             "email": "rt22190@bristol.ac.uk", 
             "LinkedIn": "https://www.linkedin.com/in/ndlphong/", 
-            "image": "/images/rep2_cropped.jpg",
+            "image": "/images/unknown.jpg",
             "title": "BDSS President"
         },
         { 
             "names": "Jordan Fung", 
             "email": "zn22284@bristol.ac.uk", 
             "LinkedIn": "None", 
-            "image": "/images/rep2_cropped.jpg",
+            "image": "/images/unknown.jpg",
             "title": "Faculty Representative"
         },
         { 
