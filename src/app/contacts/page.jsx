@@ -33,7 +33,7 @@ export default function Plan() {
             "names": "Jordan Fung", 
             "email": "zn22284@bristol.ac.uk", 
             "LinkedIn": "None", 
-            "image": "/images/unknown.jpg",
+            "image": "/images/thumbnail_Faculty_Rep.png",
             "title": "Faculty Representative"
         },
         { 
