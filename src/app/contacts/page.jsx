@@ -26,7 +26,7 @@ export default function Plan() {
             "names": "Lam Phong Nguyen Dang", 
             "email": "rt22190@bristol.ac.uk", 
             "LinkedIn": "https://www.linkedin.com/in/ndlphong/", 
-            "image": "/images/unknown.jpg",
+            "image": "/images/Screenshot_20241106-152229_Instagram.jpg",
             "title": "BDSS President"
         },
         { 
