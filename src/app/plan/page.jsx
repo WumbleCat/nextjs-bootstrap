@@ -410,12 +410,12 @@ export default function PlanAccordion() {
           </div>
           {/* May 2024 */}
           <div className="accordion-item">
-            <h2 className="accordion-header" id="headingApr">
-              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseApr" aria-expanded="false" aria-controls="collapseApr">
+            <h2 className="accordion-header" id="headingMay">
+              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMay" aria-expanded="false" aria-controls="collapseMay">
                 May 2024
               </button>
             </h2>
-            <div id="collapseApr" className="accordion-collapse collapse" aria-labelledby="headingApr" data-bs-parent="#activityAccordion">
+            <div id="collapseMay" className="accordion-collapse collapse" aria-labelledby="headingMay" data-bs-parent="#activityAccordion">
               <div className="accordion-body">
                 <ul>
                   <li>Attending the final FULL SSLC Meeting</li>
@@ -434,12 +434,12 @@ export default function PlanAccordion() {
           
           {/* June - August 2024 */}
             <div className="accordion-item">
-            <h2 className="accordion-header" id="headingApr">
-              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseApr" aria-expanded="false" aria-controls="collapseApr">
+            <h2 className="accordion-header" id="headingJunAug">
+              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseJunAug" aria-expanded="false" aria-controls="collapseJunAug">
                 June - August 2024
               </button>
             </h2>
-            <div id="collapseApr" className="accordion-collapse collapse" aria-labelledby="headingApr" data-bs-parent="#activityAccordion">
+            <div id="collapseJunAug" className="accordion-collapse collapse" aria-labelledby="headingJunAug" data-bs-parent="#activityAccordion">
               <div className="accordion-body">
                 <ul>
                   <li>Organising an End-of-Term Celebration Dinner</li>
