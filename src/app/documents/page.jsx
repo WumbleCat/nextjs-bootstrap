@@ -34,6 +34,18 @@ export default function DocumentAccordion() {
       ]
     },
     {
+      category: 'Year 2 SSLC Meetings',
+      items: [
+        {
+          title: 'First Year 2 SSLC (16th Oct 2024)',
+          documents: [
+            { name: 'Year 2 SSLC Memo', link: 'https://docs.google.com/document/d/1SRHz8XL8ZmYO-_Xnu0xVMLPGmPXRX86DVuj1y8E1Tn4/edit?tab=t.0' },
+            { name: 'Inquiries List & School Response', link: 'https://docs.google.com/document/d/1I6Tm_sSrorABe2d1u-uug20UOp5hVHTuqnr7SzWeMqM/edit?tab=t.0' }
+          ]
+        }
+      ]
+    },
+    {
       category: 'Full SSLC Meetings',
       items: [
         {
