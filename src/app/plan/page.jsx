@@ -431,8 +431,9 @@ export default function PlanAccordion() {
               </div>
             </div>
           </div>
+          
           {/* June - August 2024 */}
-          {/* <div className="accordion-item">
+            <div className="accordion-item">
             <h2 className="accordion-header" id="headingApr">
               <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseApr" aria-expanded="false" aria-controls="collapseApr">
                 May 2024
@@ -452,7 +453,7 @@ export default function PlanAccordion() {
                 </ul>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </main>
