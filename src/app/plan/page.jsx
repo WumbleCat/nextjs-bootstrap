@@ -388,8 +388,9 @@ export default function PlanAccordion() {
               </div>
             </div>
           </div>
+          
           {/* April 2024 */}
-          {/* <div className="accordion-item">
+          <div className="accordion-item">
             <h2 className="accordion-header" id="headingApr">
               <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseApr" aria-expanded="false" aria-controls="collapseApr">
                 April 2024
@@ -406,7 +407,30 @@ export default function PlanAccordion() {
                 </ul>
               </div>
             </div>
-          </div> */}
+          </div>
+          {/* May 2024 */}
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingApr">
+              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseApr" aria-expanded="false" aria-controls="collapseApr">
+                May 2024
+              </button>
+            </h2>
+            <div id="collapseApr" className="accordion-collapse collapse" aria-labelledby="headingApr" data-bs-parent="#activityAccordion">
+              <div className="accordion-body">
+                <ul>
+                  <li>Attending the final FULL SSLC Meeting</li>
+                  <li>Attending the meeting with the Head of School and expressing the opinion that the policy on the availability of notes for exams should remain unchanged</li>
+                  <li>Providing a End of Term Evaluation Report assessing the teaching quality of each Year 1 course</li>
+                  <li>Raising concerns about Year 3 Elective Issues</li>
+                  <li>Coordinating with Alyce on promoting the Maths at Work Session</li>
+                  <li>Attending the BDSS AGM</li>
+                  <li>Holding the Coding Surgery</li>
+                  <li>Conducting the End of TB2 In-depth Survey</li>
+                  <li>Conducting the TB2 Post Exam Survey</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>
