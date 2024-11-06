@@ -431,6 +431,28 @@ export default function PlanAccordion() {
               </div>
             </div>
           </div>
+          {/* June - August 2024 */}
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingApr">
+              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseApr" aria-expanded="false" aria-controls="collapseApr">
+                May 2024
+              </button>
+            </h2>
+            <div id="collapseApr" className="accordion-collapse collapse" aria-labelledby="headingApr" data-bs-parent="#activityAccordion">
+              <div className="accordion-body">
+                <ul>
+                  <li>Organising an End-of-Term Celebration Dinner</li>
+                  <li>Publishing the results of the End of TB2 In-depth Survey and Post Exam Survey</li>
+                  <li>Updating the Online Learning Materials</li>
+                  <li>Discussing future plans for career development with Alyce</li>
+                  <li>Proposing plans for Welcoming Events</li>
+                  <li>Discussing with BDSS with year plans on how to build a strong student community</li>
+                  <li>Establishing the WhatsApp community group with BDSS</li>
+                  <li>Providing tips for academic arrangements and career development before term starts</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>
