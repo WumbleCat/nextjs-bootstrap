@@ -242,6 +242,13 @@ export default function PlanAccordion() {
                         <td>Collaboration with BDSS/Study Skills Team</td>
                         <td>We encourage all students to join the BDSS activities as well as and participate in relevant study skills sessions, such as the coding club, and we will provide weekly updates on Data Science activities mainly through community whatsapp group.</td>
                     </tr>
+                    <tr>
+                      <td>Building a Data Science Whatsapp community group</td>
+                      <td>We coordinated with BDSS in 2024 summer to develop a Whatsapp community group consisting of Year 1-3 groups chats, 
+                        along with BDSS channels that share activity promotions and career opportunities. We encourage all Data Science students to join, 
+                        with the aim of building a strong Data Science network by creating a platform for data science activities can be promoted more effectively, 
+                        and to let students to exchange information and participate in regular community activities based on their needs.</td>
+                    </tr>
                 </tbody>
             </table>
                         </div>
