@@ -10,17 +10,17 @@ export default function Links() {
         {
             "Title": "Calendar (deadlines)",
             "Desc": "View deadlines for the course.",
-            "Link": "https://shorturl.at/nCKM9"
+            "Link": "https://docs.google.com/spreadsheets/d/1aJ7oQeagAAD-gReAwlaMqffsUSh7ggFOJFFMnso9evA/edit?usp=sharing"
         },
         {
             "Title": "Assessment Spreadsheet",
             "Desc": "Details on how your math courses will be assessed.",
-            "Link": "https://tinyurl.com/ds-assessments"
+            "Link": "https://docs.google.com/spreadsheets/d/1xVkk2n2TpYP_3AnU9KsKCQlp_Spmpy0OWqNSl1g0j6c/edit?usp=sharing"
         },
         {
             "Title": "Anonymous Message Box",
             "Desc": "Submit anonymous messages.",
-            "Link": "https://tinyurl.com/calendar-spreadsheet"
+            "Link": "https://forms.gle/LXFgfRmmAA1Gtoxr6"
         },
         // {
         //   "Title": "Discord Server",
