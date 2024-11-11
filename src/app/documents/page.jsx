@@ -79,14 +79,14 @@ export default function DocumentAccordion() {
       category: 'Full Year 2 SSLC Meetings',
       items: [
         {
-          title: 'First FULL SSLC (6 Nov 2024)',
+          title: 'First FULL SSLC (6th Nov 2024)',
           documents: [
             { name: 'Memo', link: 'https://docs.google.com/document/d/1YVCzAqR2m7nfSLx6ptntlrQsMLL7Or4i6hI0UQwCfJQ/edit?tab=t.0' },
             { name: 'Inquiries List and School Response', link: 'https://docs.google.com/document/d/1YWA_5tM_Aa3zEsCoPnslwOCqf2Cvw0LLb_Ln24BpFhM/edit?tab=t.0'}
           ]
         }
       ]
-    }
+    },
     {
       category: 'Meeting With Data Science Director',
       items: [
