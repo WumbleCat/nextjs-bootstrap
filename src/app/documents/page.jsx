@@ -104,7 +104,7 @@ export default function DocumentAccordion() {
         {
           title: 'Meeting With Faculty Rep (30th October 2024)',
           documents: [
-            { name: 'Document', link: 'https://docs.google.com/document/d/1ctfRoqhV8E68cmaUEvpoTu8qHsQpCSfQJHoQ1rVuiLU/edit?tab=t.0' }
+            { name: 'Addressing Problems for Coding Course in Data Science Curriculum', link: 'https://docs.google.com/document/d/1ctfRoqhV8E68cmaUEvpoTu8qHsQpCSfQJHoQ1rVuiLU/edit?tab=t.0' }
           ]
         }
       ]
