@@ -85,6 +85,17 @@ export default function DocumentAccordion() {
           ]
         }
       ]
+    },
+    {
+      category: 'Meeting With Faculty Rep',
+      items: [
+        {
+          title: 'Meeting With Faculty Rep (21st Feb 2024)',
+          documents: [
+            { name: 'Document', link: 'https://docs.google.com/document/d/1ctfRoqhV8E68cmaUEvpoTu8qHsQpCSfQJHoQ1rVuiLU/edit?tab=t.0' }
+          ]
+        }
+      ]
     }
   ];
 
