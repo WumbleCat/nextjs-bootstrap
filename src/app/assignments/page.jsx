@@ -8,12 +8,14 @@ export const metadata = {
 export default function Assignments() {
     // Array of assignment objects with 'type' property
     const assignments = [
-        { name: 'SCIF Coursework 2', type: 'Summative' },
+        { name: 'Project 1', type: 'Summative', subject: 'Programming and Data Analysis', dueDate: 'Wednesday 4th December 12:30PM'},
+        { name: 'Computer Practical 3', subject: 'Statistics', type: 'Summative', dueDate: 'Thursday 28th November 12PM'},
+        { name: 'Coursework 2', subject: 'Algorithm and Machine Learning', type: 'Summative', dueDate: 'Tuesday 3rd December 12PM'}
     ];
 
     const exams = [
-        { name: 'MATH-20017W Algorithms and Machine Learning Exam', date: 'Wed 11 Dec 2024 14:15', venue: 'Sports Hall, Tyndall Avenue', length: '2 hours 30 minutes'},
-        { name: 'MATH-20800W Statistics 2 Exam', date: 'Thu 12 Dec 2024 14:15', venue: 'Sports Hall, Tyndall Avenue', length: '2 hours 30 minutes'}
+        { name: 'Algorithms and Machine Learning Exam', date: 'Wed 11 Dec 2024 14:15', venue: 'Sports Hall, Tyndall Avenue', length: '2 hours 30 minutes'},
+        { name: 'Statistics 2 Exam', date: 'Thu 12 Dec 2024 14:15', venue: 'Sports Hall, Tyndall Avenue', length: '2 hours 30 minutes'}
     ];
 
     // Sort assignments so that 'Summative' types come first
