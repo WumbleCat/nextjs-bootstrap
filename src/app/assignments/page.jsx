@@ -8,15 +8,12 @@ export const metadata = {
 export default function Assignments() {
     // Array of assignment objects with 'type' property
     const assignments = [
-        { name: 'We will see you back on the 16th!', details: ':)' },
+        { name: 'SCIF Coursework 2', type: 'Summative' },
     ];
 
     const exams = [
-        // { name: 'Algorithms and Programming in C(++) and R Exam', details: '(Date and Venue TBC)' },
-        // { name: 'Applied Analysis B Exam', details: '(Date and Venue TBC)' },
-        // { name: 'Linear Models Exam', details: '(Date and Venue TBC)' },
-        // { name: 'Statistics Exam', details: '(Date and Venue TBC)' },
-        { name: 'Enjoy Your Summer!', details: ':)' },
+        { name: 'MATH-20017W Algorithms and Machine Learning Exam', date: 'Wed 11 Dec 2024 14:15', venue: 'Sports Hall, Tyndall Avenue', length: '2 hours 30 minutes'},
+        { name: 'MATH-20800W Statistics 2 Exam', date: 'Thu 12 Dec 2024 14:15', venue: 'Sports Hall, Tyndall Avenue', length: '2 hours 30 minutes'}
     ];
 
     // Sort assignments so that 'Summative' types come first
@@ -70,7 +67,9 @@ export default function Assignments() {
                             <tr>
                                 <th scope="col">#</th>
                                 <th scope="col">Exam Name</th>
-                                <th scope="col">Details</th>
+                                <th scope="col">Date</th>
+                                <th scope="col">Venue</th>
+                                <th scope='col'>Length</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -79,7 +78,9 @@ export default function Assignments() {
                                 <tr key={index}>
                                     <th scope="row">{index + 1}</th>
                                     <td>{exam.name}</td>
-                                    <td>{exam.details}</td>
+                                    <td>{exam.date}</td>
+                                    <td>{exam.venue}</td>
+                                    <td>{exam.length}</td>
                                 </tr>
                             ))}
                         </tbody>
