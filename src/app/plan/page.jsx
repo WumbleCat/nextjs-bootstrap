@@ -474,7 +474,7 @@ export default function PlanAccordion() {
                 <div className="accordion-item">
                   <h2 className="accordion-header" id="headingSep24">
                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSep24" aria-expanded="false" aria-controls="collapseSep24">
-                      Sep 2024
+                      September 2024
                     </button>
                   </h2>
                   <div id="collapseSep24" className="accordion-collapse collapse" aria-labelledby="headingSep24" data-bs-parent="#activityAccordion">
@@ -493,7 +493,7 @@ export default function PlanAccordion() {
                 <div className="accordion-item">
                   <h2 className="accordion-header" id="headingOct24">
                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOct24" aria-expanded="false" aria-controls="collapseOct24">
-                      Oct 2024
+                      October 2024
                     </button>
                   </h2>
                   <div id="collapseOct24" className="accordion-collapse collapse" aria-labelledby="headingOct24" data-bs-parent="#activityAccordion">
@@ -513,7 +513,7 @@ export default function PlanAccordion() {
                 <div className="accordion-item">
                   <h2 className="accordion-header" id="headingNov24">
                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNov24" aria-expanded="false" aria-controls="collapseNov24">
-                      Nov 2024
+                      November 2024
                     </button>
                   </h2>
                   <div id="collapseNov24" className="accordion-collapse collapse" aria-labelledby="headingNov24" data-bs-parent="#activityAccordion">
@@ -532,7 +532,7 @@ export default function PlanAccordion() {
                 <div className="accordion-item">
                   <h2 className="accordion-header" id="headingDec24">
                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDec24" aria-expanded="false" aria-controls="collapseDec24">
-                      Dec 2024
+                      December 2024
                     </button>
                   </h2>
                   <div id="collapseDec24" className="accordion-collapse collapse" aria-labelledby="headingDec24" data-bs-parent="#activityAccordion">
