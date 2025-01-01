@@ -423,6 +423,7 @@ export default function PlanAccordion() {
                     </div>
                   </div>
                 </div>
+                
                 {/* May 2024 */}
                 <div className="accordion-item">
                   <h2 className="accordion-header" id="headingMay">
@@ -465,6 +466,25 @@ export default function PlanAccordion() {
                         <li>Discussing with BDSS with year plans on how to build a strong student community</li>
                         <li>Establishing the WhatsApp community group with BDSS</li>
                         <li>Providing tips for academic arrangements and career development before term starts</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                {/* Sep 2024 */}
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="headingSep24">
+                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSep24" aria-expanded="false" aria-controls="collapseMay">
+                      Sep 2024
+                    </button>
+                  </h2>
+                  <div id="collapseSep24" className="accordion-collapse collapse" aria-labelledby="headingSep24" data-bs-parent="#activityAccordion">
+                    <div className="accordion-body">
+                      <ul>
+                        <li>Confirming TB1 plans for career development with Alyce (Project Coordinator from the Science Faculty Office), Matrix, and BDSS.</li>
+                        <li>Attending Welcoming Week Orientation Talks and introducing the Data Science Community to freshers.</li>
+                        <li>Coordinating with BDSS to promote Data Science events such as the orientation party and Song Liu’s Sharing Talk.</li>
+                        <li>Providing voluntary coding support during Year 1 Algorithms and Programming in C(++) and R lab sessions.</li>
+                        <li>Encouraging Year 1 students to participate in Course Rep elections and elect their course reps.</li>
                       </ul>
                     </div>
                   </div>
