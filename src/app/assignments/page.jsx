@@ -8,7 +8,7 @@ export const metadata = {
 export default function Assignments() {
     // Array of assignment objects with 'type' property
     const assignments = [
-        { name: 'Winter Break!! }
+        { name: 'Winter Break!!'}
     ];
 
     const exams = [
