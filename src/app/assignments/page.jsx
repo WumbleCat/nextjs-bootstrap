@@ -14,7 +14,7 @@ export default function Assignments() {
     ];
 
     const exams = [
-        { name: 'Winter Break!'}
+        { name: 'No information yet!!'}
     ];
 
     // Sort assignments so that 'Summative' types come first
