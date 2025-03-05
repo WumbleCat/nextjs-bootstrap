@@ -548,7 +548,7 @@ export default function PlanAccordion() {
                 </div>
               </div>
               <div className="accordion-item">
-              <h2 className="accordion-header" id="heading2024">
+              <h2 className="accordion-header" id="heading2025">
                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2025" aria-expanded="true" aria-controls="collapse2025">
                       2025
                 </button>
