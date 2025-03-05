@@ -547,6 +547,56 @@ export default function PlanAccordion() {
                   </div>
                 </div>
               </div>
+              <div className="accordion-item">
+              <h2 className="accordion-header" id="heading2024">
+                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2025" aria-expanded="true" aria-controls="collapse2025">
+                      2025
+                </button>
+              </h2>
+              <div id="collapse2025" className="accordion-collapse collapse" aria-labelledby="heading2025" data-bs-parent="#activityAccordionYear">
+                {/* January 2025 */}
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="headingJan">
+                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseJan25" aria-expanded="false" aria-controls="collapseJan25">
+                      January 2025
+                    </button>
+                  </h2>
+                  <div id="collapseJan25" className="accordion-collapse collapse" aria-labelledby="headingJan25" data-bs-parent="#activityAccordion">
+                    <div className="accordion-body">
+                      <ul>
+                        <li>Attended a meeting with the Director of UG Studies to discuss the ALM exam arrangements, the impacts of SAY, and plans for consolidating the student community.</li>
+                        <li>Attended the Second Year 2 SSLC and provided opinion on how feedbacks are used to improve learning</li>
+                        <li>Attended the Second Maths FSSLC and raised issues such as extending the ALM exam to 2.5 hours in TB2 and suggesting modifications to the Year 3 Group Project arrangement for 2025/26.</li>
+                        <li>Attended the SAY Forum with other School Reps on 25th January, expressing concerns about the impact of SAY to SU staff and Faculty Reps.</li>
+                        <li>Proposed making Teaching Support Roles (TSRs) available to Year 3 students for future MATH10017/MATH20017 courses, which received positive feedback.</li>
+                        <li>Attended an online meeting with the University Quality Team to provide general feedback on administrative issues within our School.</li>
+                        <li>Attended the Second Faculty SSLC and addressed issues regarding Year 2 unit choices.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                {/* February 2025 */}
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="headingJan">
+                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFeb25" aria-expanded="false" aria-controls="collapseFeb25">
+                      February 2025
+                    </button>
+                  </h2>
+                  <div id="collapseFeb25" className="accordion-collapse collapse" aria-labelledby="headingFeb25" data-bs-parent="#activityAccordion">
+                    <div className="accordion-body">
+                      <ul>
+                        <li>Conducted a consultation regarding the election plan for course reps in 2025/26.</li>
+                        <li>Discussed potential unit choice arrangements with the Director of UG Studies.</li>
+                        <li>Assisted the Faculty Rep in collecting hundreds of survey responses for the university-wide SAY survey.</li>
+                        <li>Attended the Third Maths FSSLC, raising concerns about the quality of lecture notes in ALM, teaching quality in the Perspectives in Data Science course, and providing detailed feedback on improving the unit choice mechanism.</li>
+                        <li>Attended the Second Science Rep Forum.</li>
+                        <li>Attended the Third Science FSSLC, raising concerns about extending the deadline for the BLUE survey to include exam feedback, ways to strengthen coding foundations for Year 1 DS students, and potential faculty support for Data Science students in developing their coding skills.</li>
+                        <li>Coordinated with Alyce, Matrix, and BDSS to promote the TB2 Maths at Work event.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div> 
             </div>
           </div>
         </div>
