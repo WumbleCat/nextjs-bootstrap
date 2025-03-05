@@ -39,8 +39,14 @@ export default function DocumentAccordion() {
         {
           title: 'First Year 2 SSLC (16th Oct 2024)',
           documents: [
-            { name: 'Year 2 SSLC Memo', link: 'https://docs.google.com/document/d/1SRHz8XL8ZmYO-_Xnu0xVMLPGmPXRX86DVuj1y8E1Tn4/edit?tab=t.0' },
+            { name: 'First Year 2 SSLC Memo', link: 'https://docs.google.com/document/d/1SRHz8XL8ZmYO-_Xnu0xVMLPGmPXRX86DVuj1y8E1Tn4/edit?tab=t.0' },
             { name: 'Inquiries List & School Response', link: 'https://docs.google.com/document/d/1I6Tm_sSrorABe2d1u-uug20UOp5hVHTuqnr7SzWeMqM/edit?tab=t.0' }
+          ]
+        },
+        {
+          title: 'Second Year 2 SSLC (15th Jan 2025)',
+          documents: [
+            { name: 'Second Year 2 SSLC Memo', link: 'https://docs.google.com/document/d/1_WGzLxHQB2Id2OIfrRcxwpffvM8hByT57nm2dT75EMI/edit?tab=t.0'}
           ]
         }
       ]
@@ -83,6 +89,20 @@ export default function DocumentAccordion() {
           documents: [
             { name: 'Memo', link: 'https://docs.google.com/document/d/1YVCzAqR2m7nfSLx6ptntlrQsMLL7Or4i6hI0UQwCfJQ/edit?tab=t.0' },
             { name: 'Inquiries List and School Response', link: 'https://docs.google.com/document/d/1YWA_5tM_Aa3zEsCoPnslwOCqf2Cvw0LLb_Ln24BpFhM/edit?tab=t.0'}
+          ]
+        },
+        {
+          title: 'Second FULL SSLC (15th Jan 2025)',
+          documents: [
+            { name: 'Memo', link: 'https://docs.google.com/document/d/1hhjraNfIRx_-iCV-nMmfccpGvRyF-m_wHo96tiIS1hM/edit?tab=t.0'},
+            { name: 'Report from School Representative', link: 'https://docs.google.com/document/d/1NgspcWZC9RMkpey_tKuGLDFn64bEdahYU4y2RuXFaLg/edit?tab=t.0'}
+          ]
+        },
+        {
+          title: 'Third FULL SSLC (20th Feb 2025)',
+          documents: [
+            { name: 'Memo', link: 'https://docs.google.com/document/d/1CRPHUSWRhm6_XQpGzcxO7v1LYifFpBlHt1am7x1FBQI/edit?tab=t.0'},
+            { name: 'Concerns Regarding the Arrangement for Group Project Unit', link: 'https://docs.google.com/document/d/1zJ3SOPoUVcI7Gtm7X_OtK5O6X-dJbVorz3Uk8KNTLhg/edit?tab=t.0'}
           ]
         }
       ]
