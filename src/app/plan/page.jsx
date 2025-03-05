@@ -556,7 +556,7 @@ export default function PlanAccordion() {
               <div id="collapse2025" className="accordion-collapse collapse" aria-labelledby="heading2025" data-bs-parent="#activityAccordionYear">
                 {/* January 2025 */}
                 <div className="accordion-item">
-                  <h2 className="accordion-header" id="headingJan">
+                  <h2 className="accordion-header" id="headingJan25">
                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseJan25" aria-expanded="false" aria-controls="collapseJan25">
                       January 2025
                     </button>
@@ -577,7 +577,7 @@ export default function PlanAccordion() {
                 </div>
                 {/* February 2025 */}
                 <div className="accordion-item">
-                  <h2 className="accordion-header" id="headingJan">
+                  <h2 className="accordion-header" id="headingFeb25">
                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFeb25" aria-expanded="false" aria-controls="collapseFeb25">
                       February 2025
                     </button>
