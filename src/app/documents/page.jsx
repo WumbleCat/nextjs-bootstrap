@@ -39,14 +39,20 @@ export default function DocumentAccordion() {
         {
           title: 'First Year 2 SSLC (16th Oct 2024)',
           documents: [
-            { name: 'Year 2 SSLC Memo', link: 'https://docs.google.com/document/d/1SRHz8XL8ZmYO-_Xnu0xVMLPGmPXRX86DVuj1y8E1Tn4/edit?tab=t.0' },
+            { name: 'First Year 2 SSLC Memo', link: 'https://docs.google.com/document/d/1SRHz8XL8ZmYO-_Xnu0xVMLPGmPXRX86DVuj1y8E1Tn4/edit?tab=t.0' },
             { name: 'Inquiries List & School Response', link: 'https://docs.google.com/document/d/1I6Tm_sSrorABe2d1u-uug20UOp5hVHTuqnr7SzWeMqM/edit?tab=t.0' }
+          ]
+        },
+        {
+          title: 'Second Year 2 SSLC (15th Jan 2025)',
+          documents: [
+            { name: 'Second Year 2 SSLC Memo', link: 'https://docs.google.com/document/d/1_WGzLxHQB2Id2OIfrRcxwpffvM8hByT57nm2dT75EMI/edit?tab=t.0'}
           ]
         }
       ]
     },
     {
-      category: 'Full SSLC Meetings',
+      category: 'Full Year 1 SSLC Meetings',
       items: [
         {
           title: 'First FULL SSLC (20th November 2023)',
@@ -76,6 +82,32 @@ export default function DocumentAccordion() {
       ]
     },
     {
+      category: 'Full Year 2 SSLC Meetings',
+      items: [
+        {
+          title: 'First FULL SSLC (6th Nov 2024)',
+          documents: [
+            { name: 'Memo', link: 'https://docs.google.com/document/d/1YVCzAqR2m7nfSLx6ptntlrQsMLL7Or4i6hI0UQwCfJQ/edit?tab=t.0' },
+            { name: 'Inquiries List and School Response', link: 'https://docs.google.com/document/d/1YWA_5tM_Aa3zEsCoPnslwOCqf2Cvw0LLb_Ln24BpFhM/edit?tab=t.0'}
+          ]
+        },
+        {
+          title: 'Second FULL SSLC (15th Jan 2025)',
+          documents: [
+            { name: 'Memo', link: 'https://docs.google.com/document/d/1hhjraNfIRx_-iCV-nMmfccpGvRyF-m_wHo96tiIS1hM/edit?tab=t.0'},
+            { name: 'Report from School Representative', link: 'https://docs.google.com/document/d/1NgspcWZC9RMkpey_tKuGLDFn64bEdahYU4y2RuXFaLg/edit?tab=t.0'}
+          ]
+        },
+        {
+          title: 'Third FULL SSLC (20th Feb 2025)',
+          documents: [
+            { name: 'Memo', link: 'https://docs.google.com/document/d/1CRPHUSWRhm6_XQpGzcxO7v1LYifFpBlHt1am7x1FBQI/edit?tab=t.0'},
+            { name: 'Concerns Regarding the Arrangement for Group Project Unit', link: 'https://docs.google.com/document/d/1zJ3SOPoUVcI7Gtm7X_OtK5O6X-dJbVorz3Uk8KNTLhg/edit?tab=t.0'}
+          ]
+        }
+      ]
+    },
+    {
       category: 'Meeting With Data Science Director',
       items: [
         {
@@ -92,7 +124,7 @@ export default function DocumentAccordion() {
         {
           title: 'Meeting With Faculty Rep (30th October 2024)',
           documents: [
-            { name: 'Document', link: 'https://docs.google.com/document/d/1ctfRoqhV8E68cmaUEvpoTu8qHsQpCSfQJHoQ1rVuiLU/edit?tab=t.0' }
+            { name: 'Addressing Problems for Coding Course in Data Science Curriculum', link: 'https://docs.google.com/document/d/1ctfRoqhV8E68cmaUEvpoTu8qHsQpCSfQJHoQ1rVuiLU/edit?tab=t.0' }
           ]
         }
       ]
@@ -128,6 +160,13 @@ export default function DocumentAccordion() {
       documents: [
         { name: 'Results', link: 'https://docs.google.com/spreadsheets/d/1MtKIHcWCz1OD32LZqQjQbwATPThYwxyO/edit?usp=sharing&ouid=110035136164781901450&rtpof=true&sd=true' },
         { name: 'Report', link: 'https://drive.google.com/file/d/10AGczzvIlJhUG0joZ3rUxh8V_qAoWCEB/view?usp=sharing' }
+      ]
+    },
+    {
+      title: 'Year 2 TB1 Post Exam Survey (December 2024)',
+      documents: [
+        { name: 'TB1 Post Exam Survey Results', link: 'https://docs.google.com/spreadsheets/d/12Kncxy36NeC7Z6h36TjaxixLUXf-Q4Ig/edit?usp=sharing&ouid=110035136164781901450'},
+        { name: 'Report', link: 'https://drive.google.com/file/d/1PwjXgvzl5NCB8uTGn8c0VDysJWepuFXH/view'}
       ]
     }
   ];
