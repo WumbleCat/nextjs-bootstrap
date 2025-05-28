@@ -596,12 +596,81 @@ export default function PlanAccordion() {
                       </div>
                     </div>
                   </div>
+                  {/* March 2025 */}
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="headingMar25">
+                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMar25" aria-expanded="false" aria-controls="collapseMar25">
+                        March 2025
+                      </button>
+                    </h2>
+                    <div id="collapseMar25" className="accordion-collapse collapse" aria-labelledby="headingMar25" data-bs-parent="#activityAccordion">
+                      <div className="accordion-body">
+                        <ul>
+                          <li>Attended the third Year 2 SSLC meeting.</li>
+                          <li>Provided advice during the Unit Choice drop-in session and communicated with the school regarding the procedure for Year 3 group project unit selection, offering helpful feedback.</li>
+                          <li>Canvassed over 70 Maths and Data Science students in Fry to understand their academic support needs and concerns.</li>
+                          <li>Attended the Final Math SSLC meeting and raised issues regarding the new microwave in Fry and the accessibility of Fry after 6 p.m. during the exam period.</li>
+                          <li>Coordinated with Faculty Rep, DS and Chemistry Course Reps to address concerns about insufficient time for completing SCIF10002 coursework, resulting in a deadline extension.</li>
+                          <li>Held voluntary Maths and Coding Surgery sessions with Year 1 and 2 students.</li>
+                          <li>Coordinated with Alyce, Matrix, and BDSS to promote the Maths at Work event.</li>
+                          <li>Attended the BDSS AGM and contributed suggestions for the BDSS Future Plan and Strategy.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  {/* April 2025 */}
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="headingApr25">
+                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseApr25" aria-expanded="false" aria-controls="collapseApr25">
+                        April 2025
+                      </button>
+                    </h2>
+                    <div id="collapseApr25" className="accordion-collapse collapse" aria-labelledby="headingApr25" data-bs-parent="#activityAccordion">
+                      <div className="accordion-body">
+                        <ul>
+                          <li>Supported Alyce Griffith, our Project Coordinator to attain Bristol Teaching Award (Outstanding Support Award) and collected at least 10 endorsements from coursemates</li>
+                          <li>Provide revision notes and advices for Year 1 Students to prepare Statistics 1 Exam</li>
+                          <li>Formed Study Groups and purposed a drafted ALM past paper solutions for Year 2 coursemates</li>
+
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  {/* May 2025 */}
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="headingMay25">
+                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMay25" aria-expanded="false" aria-controls="collapseMay25">
+                        May 2025
+                      </button>
+                    </h2>
+                    <div id="collapseMay25" className="accordion-collapse collapse" aria-labelledby="headingMay25" data-bs-parent="#activityAccordion">
+                      <div className="accordion-body">
+                        <ul>
+                          <li>Met with the Year 1 Data Science Course Rep and shared useful non-assessed online learning materials.</li>
+                          <li>Supported and nominated Phong, the BDSS President in getting the Lynne Walling Student Prize, for recognition of his contributions to developing solid Data Science communities within our school.</li>
+                          <li>Promoted the survey regarding the proposed new Artificial Intelligence Master’s programme at the University.</li>
+                          <li>Attended the End-of-Year School Rep Reflection Event to provide overall feedback on the impact of the new SAY structure, the quality of assessment feedback, and financial aid for academic societies under the Faculty merger.</li>
+                          <li>Attended the BDSS EGM and expressed willingness to continue maintaining strong coordination with BDSS in the next academic year.</li>
+                          <li>Attended the final Faculty SSLC and raised concerns regarding exam difficulties, measures to reduce the negative impact of SAY in TB1, a request to issue the exam timetable earlier in TB1, and recommendations on reviewing the 2026/27 term dates.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+
+
+
+
+
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div> 
+      </div>
     </main>
   );
 }
