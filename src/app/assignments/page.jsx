@@ -8,7 +8,7 @@ export const metadata = {
 export default function Assignments() {
     // Array of assignment objects with 'type' property
     const assignments = [
-        { name: 'We will see you back on the 16th!', details: ':)' },
+        { name: 'We will see you back in September!', details: ':)' },
     ];
 
     const exams = [
@@ -17,7 +17,7 @@ export default function Assignments() {
         // { name: 'Linear Models Exam', details: '(Date and Venue TBC)' },
         // { name: 'Statistics Exam', details: '(Date and Venue TBC)' },
         // { name: 'Enjoy Your Summer!', details: ':)' },
-        { name: 'Testing', details: ':)' },
+        { name: 'congratulations you have completed all exams!', details: ':)' },
     ];
 
     // Sort assignments so that 'Summative' types come first
