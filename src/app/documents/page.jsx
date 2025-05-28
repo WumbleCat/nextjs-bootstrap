@@ -213,7 +213,7 @@ export default function DocumentAccordion() {
       <div>
         <div className='mx-5 mt-4 mb-2'></div>
         <div className="text-center mt-4 col-md-9 mx-auto">
-          <h1 className="text-danger col-md-6 mx-auto text-center">Previous Documents From Meeting with School Faculty</h1>
+          <h1 className="text-danger col-md-6 mx-auto text-center">Previous Documents From Meeting with School and Faculty</h1>
 
           <div className="accordion" id="documentAccordion">
             {meetings.map((meeting, index) => (
