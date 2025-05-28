@@ -48,6 +48,12 @@ export default function DocumentAccordion() {
           documents: [
             { name: 'Second Year 2 SSLC Memo', link: 'https://docs.google.com/document/d/1_WGzLxHQB2Id2OIfrRcxwpffvM8hByT57nm2dT75EMI/edit?tab=t.0'}
           ]
+        },
+        {
+          title: 'Third Year 2 SSLC (5th Mar 2025)',
+          documents: [
+            { name: 'Third Year 2 SSLC Memo', link: 'https://docs.google.com/document/d/10D0SqElNyuTS5ApgjVfOimyiBK3oiSa2_KimIJtFsVg/edit?tab=t.0'}
+          ]
         }
       ]
     },
@@ -104,6 +110,12 @@ export default function DocumentAccordion() {
             { name: 'Memo', link: 'https://docs.google.com/document/d/1CRPHUSWRhm6_XQpGzcxO7v1LYifFpBlHt1am7x1FBQI/edit?tab=t.0'},
             { name: 'Concerns Regarding the Arrangement for Group Project Unit', link: 'https://docs.google.com/document/d/1zJ3SOPoUVcI7Gtm7X_OtK5O6X-dJbVorz3Uk8KNTLhg/edit?tab=t.0'}
           ]
+        },
+                {
+          title: 'Forth FULL SSLC (26th Mar 2025)',
+          documents: [
+            { name: 'Report from School Representative', link: 'https://docs.google.com/document/d/1v77Nz846sn6mN5WqtBzDwvTqqC2RU-dBV7hVgnt-KBI/edit?tab=t.0'}
+          ]
         }
       ]
     },
@@ -119,12 +131,30 @@ export default function DocumentAccordion() {
       ]
     },
     {
-      category: 'Meeting With Faculty Rep',
+      category: 'Faculty Meetings and School Rep Affairs',
       items: [
         {
           title: 'Meeting With Faculty Rep (30th October 2024)',
           documents: [
             { name: 'Addressing Problems for Coding Course in Data Science Curriculum', link: 'https://docs.google.com/document/d/1ctfRoqhV8E68cmaUEvpoTu8qHsQpCSfQJHoQ1rVuiLU/edit?tab=t.0' }
+          ]
+        },
+        {
+          title: 'Maths School Rep Work Report (2025 Jan)',
+          documents: [
+            { name: 'Report from School Representative', link: 'https://docs.google.com/document/d/1NgspcWZC9RMkpey_tKuGLDFn64bEdahYU4y2RuXFaLg/edit?tab=t.0' }
+          ]
+        },
+        {
+          title: 'Maths School Rep Work Report (2025 Mar)',
+          documents: [
+            { name: 'Report from School Representative', link: 'https://docs.google.com/document/d/1v77Nz846sn6mN5WqtBzDwvTqqC2RU-dBV7hVgnt-KBI/edit?tab=t.0' }
+          ]
+        },
+        {
+          title: 'Final Faculty FSSLC (21th May 2025)',
+          documents: [
+            { name: 'School Representative Memo', link: 'https://docs.google.com/document/d/1sfhthtqWbSwY0laCfRrsD56kYBvnEe00r0Gicczxuy8/edit?usp=sharing' }
           ]
         }
       ]
@@ -167,6 +197,12 @@ export default function DocumentAccordion() {
       documents: [
         { name: 'TB1 Post Exam Survey Results', link: 'https://docs.google.com/spreadsheets/d/12Kncxy36NeC7Z6h36TjaxixLUXf-Q4Ig/edit?usp=sharing&ouid=110035136164781901450'},
         { name: 'Report', link: 'https://drive.google.com/file/d/1PwjXgvzl5NCB8uTGn8c0VDysJWepuFXH/view'}
+      ]
+    },
+      {
+      title: 'Structure of the Academic Year (SAY) Survey',
+      documents: [
+        { name: 'New SAY TB1 Feedback Survey Reports', link: 'https://drive.google.com/file/d/1CiaJO6y-80TFLmpGu5G-DIPsGoph9SGX'},
       ]
     }
   ];
