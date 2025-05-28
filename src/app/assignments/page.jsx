@@ -16,7 +16,8 @@ export default function Assignments() {
         // { name: 'Applied Analysis B Exam', details: '(Date and Venue TBC)' },
         // { name: 'Linear Models Exam', details: '(Date and Venue TBC)' },
         // { name: 'Statistics Exam', details: '(Date and Venue TBC)' },
-        { name: 'Enjoy Your Summer!', details: ':)' },
+        // { name: 'Enjoy Your Summer!', details: ':)' },
+        { name: 'Testing', details: ':)' },
     ];
 
     // Sort assignments so that 'Summative' types come first
