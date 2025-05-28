@@ -8,15 +8,11 @@ export const metadata = {
 export default function Assignments() {
     // Array of assignment objects with 'type' property
     const assignments = [
-        { name: 'We will see you back on the 16th!', details: ':)' },
+        { name: 'Perspectives Theme 3 Business Report Draft', type: 'Formative', dueDate: '21 Feb 2025'}
     ];
 
     const exams = [
-        // { name: 'Algorithms and Programming in C(++) and R Exam', details: '(Date and Venue TBC)' },
-        // { name: 'Applied Analysis B Exam', details: '(Date and Venue TBC)' },
-        // { name: 'Linear Models Exam', details: '(Date and Venue TBC)' },
-        // { name: 'Statistics Exam', details: '(Date and Venue TBC)' },
-        { name: 'Enjoy Your Summer!', details: ':)' },
+        { name: 'No information yet!!'}
     ];
 
     // Sort assignments so that 'Summative' types come first
@@ -70,7 +66,9 @@ export default function Assignments() {
                             <tr>
                                 <th scope="col">#</th>
                                 <th scope="col">Exam Name</th>
-                                <th scope="col">Details</th>
+                                <th scope="col">Date</th>
+                                <th scope="col">Venue</th>
+                                <th scope='col'>Length</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -79,7 +77,9 @@ export default function Assignments() {
                                 <tr key={index}>
                                     <th scope="row">{index + 1}</th>
                                     <td>{exam.name}</td>
-                                    <td>{exam.details}</td>
+                                    <td>{exam.date}</td>
+                                    <td>{exam.venue}</td>
+                                    <td>{exam.length}</td>
                                 </tr>
                             ))}
                         </tbody>

@@ -41,7 +41,7 @@ export default function Plan() {
             "email": "cy23929@bristol.ac.uk", 
             "LinkedIn": "https://www.linkedin.com/in/kometh-tauch-38a58626b/", 
             "image": "/images/rep2_cropped.jpg",
-            "title": "BDSS Representative"
+            "title": "Website Creator"
         }
     ];
 

@@ -290,168 +290,313 @@ export default function PlanAccordion() {
       {/* Timeline of Activities */}
       <div className="m-5 col-md-9 mx-auto">
         <h1 className="text-danger text-center">Timeline of Activities</h1>
-
-        <div className="accordion" id="activityAccordion">
-          {/* October - November 2023 */}
+        <div className="accordion" id="activityAccordionYear">
           <div className="accordion-item">
-            <h2 className="accordion-header" id="headingOctNov">
-              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOctNov" aria-expanded="true" aria-controls="collapseOctNov">
-                October - November 2023
+            <h2 className="accordion-header" id="heading2023">
+              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2023" aria-expanded="true" aria-controls="collapse2023">
+                    2023
               </button>
             </h2>
-            <div id="collapseOctNov" className="accordion-collapse collapse" aria-labelledby="headingOctNov" data-bs-parent="#activityAccordion">
-              <div className="accordion-body">
-                <ul>
-                  <li>Getting Elected on Course Rep Elections</li>
-                  <li>Building up on Online Learning Drive, Discord Group and Message Box</li>
-                  <li>Attending First Year 1 SSLC Meeting</li>
-                  <li>Attending First FULL SSLC Meeting</li>
-                  <li>Requesting modifications on the course arrangement of the “Applied Analysis A” with providing extra practice paper</li>
-                </ul>
+            <div id="collapse2023" className="accordion-collapse collapse" aria-labelledby="heading2023" data-bs-parent="#activityAccordionYear">
+              <div className="accordion" id="activityAccordion">
+                {/* October - November 2023 */}
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="headingOctNov">
+                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOctNov" aria-expanded="true" aria-controls="collapseOctNov">
+                      October - November 2023
+                    </button>
+                  </h2>
+                  <div id="collapseOctNov" className="accordion-collapse collapse" aria-labelledby="headingOctNov" data-bs-parent="#activityAccordion">
+                    <div className="accordion-body">
+                      <ul>
+                        <li>Getting Elected on Course Rep Elections</li>
+                        <li>Building up on Online Learning Drive, Discord Group and Message Box</li>
+                        <li>Attending First Year 1 SSLC Meeting</li>
+                        <li>Attending First FULL SSLC Meeting</li>
+                        <li>Requesting modifications on the course arrangement of the “Applied Analysis A” with providing extra practice paper</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+      
+                {/* December 2023 */}
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="headingDec">
+                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDec" aria-expanded="false" aria-controls="collapseDec">
+                      December 2023
+                    </button>
+                  </h2>
+                  <div id="collapseDec" className="accordion-collapse collapse" aria-labelledby="headingDec" data-bs-parent="#activityAccordion">
+                    <div className="accordion-body">
+                      <ul>
+                        <li>Attending Second Year 1 SSLC Meeting</li>
+                        <li>Conducting In-depth Year 1 Survey</li>
+                        <li>Holding Maths/ Coding Surgery</li>
+                        <li>Initialize meeting with the Data Science Director</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-
-          {/* December 2023 */}
-          <div className="accordion-item">
-            <h2 className="accordion-header" id="headingDec">
-              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDec" aria-expanded="false" aria-controls="collapseDec">
-                December 2023
-              </button>
-            </h2>
-            <div id="collapseDec" className="accordion-collapse collapse" aria-labelledby="headingDec" data-bs-parent="#activityAccordion">
-              <div className="accordion-body">
-                <ul>
-                  <li>Attending Second Year 1 SSLC Meeting</li>
-                  <li>Conducting In-depth Year 1 Survey</li>
-                  <li>Holding Maths/ Coding Surgery</li>
-                  <li>Initialize meeting with the Data Science Director</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          {/* January 2024 */}
-          <div className="accordion-item">
-            <h2 className="accordion-header" id="headingJan">
-              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseJan" aria-expanded="false" aria-controls="collapseJan">
-                January 2024
-              </button>
-            </h2>
-            <div id="collapseJan" className="accordion-collapse collapse" aria-labelledby="headingJan" data-bs-parent="#activityAccordion">
-              <div className="accordion-body">
-                <ul>
-                  <li>Attending Second FULL SSLC Meeting</li>
-                  <li>Raise the concerns about how the change of school plan in 24/25 affects on students performance</li>
-                  <li>Conducting TB1 Post-exam Survey</li>
-                  <li>Publishing Post-exam Survey Results during the Second FULL SSLC Meeting</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          {/* February 2024 */}
-          <div className="accordion-item">
-            <h2 className="accordion-header" id="headingFeb">
-              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFeb" aria-expanded="false" aria-controls="collapseFeb">
-                February 2024
-              </button>
-            </h2>
-            <div id="collapseFeb" className="accordion-collapse collapse" aria-labelledby="headingFeb" data-bs-parent="#activityAccordion">
-              <div className="accordion-body">
-                <ul>
-                  <li>Attending Third FULL SSLC Meeting and we discussed curriculum design course arrangements and overlapping problem in coding course</li>
-                  <li>Attending the meeting with the Data Science Director, which discuss curriculum design, career development and the data science community</li>
-                  <li>Publishing the result of the end of TB1 In-depth survey</li>
-                  <li>Attending Third FULL SSLC</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          {/* March 2024 */}
-          <div className="accordion-item">
-            <h2 className="accordion-header" id="headingMar">
-              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMar" aria-expanded="false" aria-controls="collapseMar">
-                March 2024
-              </button>
-            </h2>
-            <div id="collapseMar" className="accordion-collapse collapse" aria-labelledby="headingMar" data-bs-parent="#activityAccordion">
-              <div className="accordion-body">
-                <ul>
-                  <li>Attending Third Year 1 SSLC Meeting</li>
-                  <li>Promotion on Career Events (Explore Data Science Workshop)</li>
-                  <li>Attending the meeting with the Data Science Director and Alyce, which discuss about students’ career development and the data science community</li>
-                  <li>Raise concerns on Open Book exams and modifying exam arrangements on course Applied Analysis B and Statistics</li>
-                  <li>Raise concerns on modifying procedures in Offer Holder Event, Discuss with Data Science Offer-Holders during Offer Holder Event</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          
-          {/* April 2024 */}
-          <div className="accordion-item">
-            <h2 className="accordion-header" id="headingApr">
-              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseApr" aria-expanded="false" aria-controls="collapseApr">
-                April 2024
-              </button>
-            </h2>
-            <div id="collapseApr" className="accordion-collapse collapse" aria-labelledby="headingApr" data-bs-parent="#activityAccordion">
-              <div className="accordion-body">
-                <ul>
-                  <li>Attending the Fourth and Final Year 1 SSLC Meeting</li>
-                  <li>Promotion on Career Events (Maths at Work - student and industry engagement event)</li>
-                  <li>Conduct End of the Year Survey</li>
-                  <li>Attend BDSS AGM and provide suggestions on BDSS Future Plan</li>
-                  <li>Holding Maths/ Coding Surgery</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          {/* May 2024 */}
-          <div className="accordion-item">
-            <h2 className="accordion-header" id="headingMay">
-              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMay" aria-expanded="false" aria-controls="collapseMay">
-                May 2024
-              </button>
-            </h2>
-            <div id="collapseMay" className="accordion-collapse collapse" aria-labelledby="headingMay" data-bs-parent="#activityAccordion">
-              <div className="accordion-body">
-                <ul>
-                  <li>Attending the final FULL SSLC Meeting</li>
-                  <li>Attending the meeting with the Head of School and expressing the opinion that the policy on the availability of notes for exams should remain unchanged</li>
-                  <li>Providing a End of Term Evaluation Report assessing the teaching quality of each Year 1 course</li>
-                  <li>Raising concerns about Year 3 Elective Issues</li>
-                  <li>Coordinating with Alyce on promoting the Maths at Work Session</li>
-                  <li>Attending the BDSS AGM</li>
-                  <li>Holding the Coding Surgery</li>
-                  <li>Conducting the End of TB2 In-depth Survey</li>
-                  <li>Conducting the TB2 Post Exam Survey</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          
-          {/* June - August 2024 */}
             <div className="accordion-item">
-            <h2 className="accordion-header" id="headingJunAug">
-              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseJunAug" aria-expanded="false" aria-controls="collapseJunAug">
-                June - August 2024
-              </button>
-            </h2>
-            <div id="collapseJunAug" className="accordion-collapse collapse" aria-labelledby="headingJunAug" data-bs-parent="#activityAccordion">
-              <div className="accordion-body">
-                <ul>
-                  <li>Organising an End-of-Term Celebration Dinner</li>
-                  <li>Publishing the results of the End of TB2 In-depth Survey and Post Exam Survey</li>
-                  <li>Updating the Online Learning Materials</li>
-                  <li>Discussing future plans for career development with Alyce</li>
-                  <li>Proposing plans for Welcoming Events</li>
-                  <li>Discussing with BDSS with year plans on how to build a strong student community</li>
-                  <li>Establishing the WhatsApp community group with BDSS</li>
-                  <li>Providing tips for academic arrangements and career development before term starts</li>
-                </ul>
+              <h2 className="accordion-header" id="heading2024">
+                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2024" aria-expanded="true" aria-controls="collapse2024">
+                      2024
+                </button>
+              </h2>
+              <div id="collapse2024" className="accordion-collapse collapse" aria-labelledby="heading2024" data-bs-parent="#activityAccordionYear">
+                {/* January 2024 */}
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="headingJan">
+                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseJan" aria-expanded="false" aria-controls="collapseJan">
+                      January 2024
+                    </button>
+                  </h2>
+                  <div id="collapseJan" className="accordion-collapse collapse" aria-labelledby="headingJan" data-bs-parent="#activityAccordion">
+                    <div className="accordion-body">
+                      <ul>
+                        <li>Attending Second FULL SSLC Meeting</li>
+                        <li>Raise the concerns about how the change of school plan in 24/25 affects on students performance</li>
+                        <li>Conducting TB1 Post-exam Survey</li>
+                        <li>Publishing Post-exam Survey Results during the Second FULL SSLC Meeting</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+      
+                {/* February 2024 */}
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="headingFeb">
+                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFeb" aria-expanded="false" aria-controls="collapseFeb">
+                      February 2024
+                    </button>
+                  </h2>
+                  <div id="collapseFeb" className="accordion-collapse collapse" aria-labelledby="headingFeb" data-bs-parent="#activityAccordion">
+                    <div className="accordion-body">
+                      <ul>
+                        <li>Attending Third FULL SSLC Meeting and we discussed curriculum design course arrangements and overlapping problem in coding course</li>
+                        <li>Attending the meeting with the Data Science Director, which discuss curriculum design, career development and the data science community</li>
+                        <li>Publishing the result of the end of TB1 In-depth survey</li>
+                        <li>Attending Third FULL SSLC</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+      
+                {/* March 2024 */}
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="headingMar">
+                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMar" aria-expanded="false" aria-controls="collapseMar">
+                      March 2024
+                    </button>
+                  </h2>
+                  <div id="collapseMar" className="accordion-collapse collapse" aria-labelledby="headingMar" data-bs-parent="#activityAccordion">
+                    <div className="accordion-body">
+                      <ul>
+                        <li>Attending Third Year 1 SSLC Meeting</li>
+                        <li>Promotion on Career Events (Explore Data Science Workshop)</li>
+                        <li>Attending the meeting with the Data Science Director and Alyce, which discuss about students’ career development and the data science community</li>
+                        <li>Raise concerns on Open Book exams and modifying exam arrangements on course Applied Analysis B and Statistics</li>
+                        <li>Raise concerns on modifying procedures in Offer Holder Event, Discuss with Data Science Offer-Holders during Offer Holder Event</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                
+                {/* April 2024 */}
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="headingApr">
+                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseApr" aria-expanded="false" aria-controls="collapseApr">
+                      April 2024
+                    </button>
+                  </h2>
+                  <div id="collapseApr" className="accordion-collapse collapse" aria-labelledby="headingApr" data-bs-parent="#activityAccordion">
+                    <div className="accordion-body">
+                      <ul>
+                        <li>Attending the Fourth and Final Year 1 SSLC Meeting</li>
+                        <li>Promotion on Career Events (Maths at Work - student and industry engagement event)</li>
+                        <li>Conduct End of the Year Survey</li>
+                        <li>Attend BDSS AGM and provide suggestions on BDSS Future Plan</li>
+                        <li>Holding Maths/ Coding Surgery</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                
+                {/* May 2024 */}
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="headingMay">
+                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMay" aria-expanded="false" aria-controls="collapseMay">
+                      May 2024
+                    </button>
+                  </h2>
+                  <div id="collapseMay" className="accordion-collapse collapse" aria-labelledby="headingMay" data-bs-parent="#activityAccordion">
+                    <div className="accordion-body">
+                      <ul>
+                        <li>Attending the final FULL SSLC Meeting</li>
+                        <li>Attending the meeting with the Head of School and expressing the opinion that the policy on the availability of notes for exams should remain unchanged</li>
+                        <li>Providing a End of Term Evaluation Report assessing the teaching quality of each Year 1 course</li>
+                        <li>Raising concerns about Year 3 Elective Issues</li>
+                        <li>Coordinating with Alyce on promoting the Maths at Work Session</li>
+                        <li>Attending the BDSS AGM</li>
+                        <li>Holding the Coding Surgery</li>
+                        <li>Conducting the End of TB2 In-depth Survey</li>
+                        <li>Conducting the TB2 Post Exam Survey</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                
+                {/* June - August 2024 */}
+                  <div className="accordion-item">
+                  <h2 className="accordion-header" id="headingJunAug">
+                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseJunAug" aria-expanded="false" aria-controls="collapseJunAug">
+                      June - August 2024
+                    </button>
+                  </h2>
+                  <div id="collapseJunAug" className="accordion-collapse collapse" aria-labelledby="headingJunAug" data-bs-parent="#activityAccordion">
+                    <div className="accordion-body">
+                      <ul>
+                        <li>Organising an End-of-Term Celebration Dinner</li>
+                        <li>Publishing the results of the End of TB2 In-depth Survey and Post Exam Survey</li>
+                        <li>Updating the Online Learning Materials</li>
+                        <li>Discussing future plans for career development with Alyce</li>
+                        <li>Proposing plans for Welcoming Events</li>
+                        <li>Discussing with BDSS with year plans on how to build a strong student community</li>
+                        <li>Establishing the WhatsApp community group with BDSS</li>
+                        <li>Providing tips for academic arrangements and career development before term starts</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                {/* Sep 2024 */}
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="headingSep24">
+                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSep24" aria-expanded="false" aria-controls="collapseSep24">
+                      September 2024
+                    </button>
+                  </h2>
+                  <div id="collapseSep24" className="accordion-collapse collapse" aria-labelledby="headingSep24" data-bs-parent="#activityAccordion">
+                    <div className="accordion-body">
+                      <ul>
+                        <li>Confirming TB1 plans for career development with Alyce (Project Coordinator from the Science Faculty Office), Matrix, and BDSS.</li>
+                        <li>Attending Welcoming Week Orientation Talks and introducing the Data Science Community to freshers.</li>
+                        <li>Coordinating with BDSS to promote Data Science events such as the orientation party and Song Liu’s Sharing Talk.</li>
+                        <li>Providing voluntary coding support during Year 1 Algorithms and Programming in C(++) and R lab sessions.</li>
+                        <li>Encouraging Year 1 students to participate in Course Rep elections and elect their course reps.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                {/* Oct 2024 */}
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="headingOct24">
+                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOct24" aria-expanded="false" aria-controls="collapseOct24">
+                      October 2024
+                    </button>
+                  </h2>
+                  <div id="collapseOct24" className="accordion-collapse collapse" aria-labelledby="headingOct24" data-bs-parent="#activityAccordion">
+                    <div className="accordion-body">
+                      <ul>
+                        <li>Coordinating with Alyce, Matrix, and BDSS to promote the Internship Panel and the Maths at Work Event.</li>
+                        <li>Attending the Faculty of Science Autumn Forum and addressing concerns regarding SCIF coding courses, while suggesting the idea of setting up a Faculty of Science Teams Group.</li>
+                        <li>Attending the first Year 2 SSLC and raising concerns related to modified calculator policies and the attendance policy for the reading week.</li>
+                        <li>Meeting with elected Year 1 Data Science Reps to discuss the Year Plan and share supportive learning materials.</li>
+                        <li>Coordinating with Year 1 Reps and providing support during voluntary Programming Surgery sessions.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                
+                {/* Nov 2024 */}
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="headingNov24">
+                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNov24" aria-expanded="false" aria-controls="collapseNov24">
+                      November 2024
+                    </button>
+                  </h2>
+                  <div id="collapseNov24" className="accordion-collapse collapse" aria-labelledby="headingNov24" data-bs-parent="#activityAccordion">
+                    <div className="accordion-body">
+                      <ul>
+                        <li>Attending the first Full SSLC to address concerns regarding the teaching arrangements for MATH 20017, calculator policies, the setup of microwaves and hot water pipelines in the Fry Building, and teaching quality for the AML course.</li>
+                        <li>Coordinating with the Chair of the Maths FSSLC to establish a Course Rep WhatsApp group.</li>
+                        <li>Attending the Faculty FSSLC and raising concerns about Data Science coding courses and the hectic schedule brought on by the new TB1 SAY schedule.</li>
+                        <li>Coordinating with Alyce to promote student participation in the Data Science mock interview sessions.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                
+                {/* Dec 2024 */}
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="headingDec24">
+                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDec24" aria-expanded="false" aria-controls="collapseDec24">
+                      December 2024
+                    </button>
+                  </h2>
+                  <div id="collapseDec24" className="accordion-collapse collapse" aria-labelledby="headingDec24" data-bs-parent="#activityAccordion">
+                    <div className="accordion-body">
+                      <ul>
+                        <li>Conducting the TB1 Post-Exam Survey and publishing a post exam report.</li>
+                        <li>Addressing the School of Maths regarding the abnormal circumstances surrounding the AML examination.</li>
+                        <li>Highlighting concerns about coursework overload caused by the new SAY structure.</li>
+                        <li>Conducting inquiries into the School Rep Reform and providing suggestions on how the Student Union could further support Course/School Reps in communicating with students.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
+              <div className="accordion-item">
+              <h2 className="accordion-header" id="heading2025">
+                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2025" aria-expanded="true" aria-controls="collapse2025">
+                      2025
+                </button>
+              </h2>
+              <div id="collapse2025" className="accordion-collapse collapse" aria-labelledby="heading2025" data-bs-parent="#activityAccordionYear">
+                {/* January 2025 */}
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="headingJan25">
+                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseJan25" aria-expanded="false" aria-controls="collapseJan25">
+                      January 2025
+                    </button>
+                  </h2>
+                  <div id="collapseJan25" className="accordion-collapse collapse" aria-labelledby="headingJan25" data-bs-parent="#activityAccordion">
+                    <div className="accordion-body">
+                      <ul>
+                        <li>Attended a meeting with the Director of UG Studies to discuss the ALM exam arrangements, the impacts of SAY, and plans for consolidating the student community.</li>
+                        <li>Attended the Second Year 2 SSLC and provided opinion on how feedbacks are used to improve learning</li>
+                        <li>Attended the Second Maths FSSLC and raised issues such as extending the ALM exam to 2.5 hours in TB2 and suggesting modifications to the Year 3 Group Project arrangement for 2025/26.</li>
+                        <li>Attended the SAY Forum with other School Reps on 25th January, expressing concerns about the impact of SAY to SU staff and Faculty Reps.</li>
+                        <li>Proposed making Teaching Support Roles (TSRs) available to Year 3 students for future MATH10017/MATH20017 courses, which received positive feedback.</li>
+                        <li>Attended an online meeting with the University Quality Team to provide general feedback on administrative issues within our School.</li>
+                        <li>Attended the Second Faculty SSLC and addressed issues regarding Year 2 unit choices.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                {/* February 2025 */}
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="headingFeb25">
+                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFeb25" aria-expanded="false" aria-controls="collapseFeb25">
+                      February 2025
+                    </button>
+                  </h2>
+                  <div id="collapseFeb25" className="accordion-collapse collapse" aria-labelledby="headingFeb25" data-bs-parent="#activityAccordion">
+                    <div className="accordion-body">
+                      <ul>
+                        <li>Conducted a consultation regarding the election plan for course reps in 2025/26.</li>
+                        <li>Discussed potential unit choice arrangements with the Director of UG Studies.</li>
+                        <li>Assisted the Faculty Rep in collecting hundreds of survey responses for the university-wide SAY survey.</li>
+                        <li>Attended the Third Maths FSSLC, raising concerns about the quality of lecture notes in ALM, teaching quality in the Perspectives in Data Science course, and providing detailed feedback on improving the unit choice mechanism.</li>
+                        <li>Attended the Second Science Rep Forum.</li>
+                        <li>Attended the Third Science FSSLC, raising concerns about extending the deadline for the BLUE survey to include exam feedback, ways to strengthen coding foundations for Year 1 DS students, and potential faculty support for Data Science students in developing their coding skills.</li>
+                        <li>Coordinated with Alyce, Matrix, and BDSS to promote the TB2 Maths at Work event.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div> 
             </div>
           </div>
         </div>
